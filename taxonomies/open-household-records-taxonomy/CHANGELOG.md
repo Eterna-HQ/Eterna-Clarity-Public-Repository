@@ -16,8 +16,13 @@ Initial public candidate containing:
 - non-regulatory sensitivity cues;
 - lifecycle review triggers without invented retention periods;
 - common cross-category relationships;
-- JSON and CSV representations;
+- a formatted human-facing XLSX workbook with Taxonomy, How to Use, and Technical Reference sheets;
+- JSON and flat CSV representations for portability and implementation;
 - JSON Schema for the machine-readable structure.
+
+### Human spreadsheet correction — 2026-08-25
+
+The original CSV was structurally valid but too technical to serve as the designed human spreadsheet. Because CSV cannot preserve presentation formatting, a dedicated `taxonomy.xlsx` workbook was added. The workbook puts human-readable concepts first, wraps long text, sets practical column widths and row heights, freezes and filters the header, and moves stable IDs/technical fields to a secondary reference sheet. The CSV remains the plain portable export rather than pretending to be the formatted reading experience.
 
 ### Review boundaries before 1.0.0
 
