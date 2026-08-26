@@ -4,11 +4,13 @@ Use this as a handoff map, not a warehouse. Write enough that someone you trust 
 
 **Do not put passwords, PINs, recovery codes, encryption keys, banking credentials, security answers, or other secrets in this plan.**
 
-**Important:** naming someone here does not itself give them legal authority. Point to the governing document, professional, account arrangement, or formal process where authority actually comes from.
+**Privacy:** even without passwords, this plan can reveal sensitive household context. Keep and share it only where appropriate.
+
+**Important:** naming someone here does not itself give them legal authority. Point to the document, professional, account arrangement, or formal process where that authority actually comes from.
 
 ## 1. Starting point
 
-**Plan owner:**  
+**Plan owner(s):**  
 **Last reviewed:**  
 **Where the current plan is kept:**  
 **Who knows this plan exists:**  
@@ -21,28 +23,39 @@ Use this as a handoff map, not a warehouse. Write enough that someone you trust 
 |  |  |  |  |
 |  |  |  |  |
 
+### First pass
+
+If you do nothing else, start here:
+
+- add the two or three people someone should contact first;
+- fill only the three to five household areas another person could not easily reconstruct;
+- list anything open or due in the next two weeks that should not be missed; and
+- note where any protected digital-access or recovery arrangement is managed.
+
+Write each detail once. If something already has a clear home, point to it instead of copying it here.
+
 ## 2. Household handoff map
 
-Do not list every record. Use one line for each area where another person would need orientation.
+Use this as the index to the household. Do not repeat open-loop or recurring details here; those have their own sections.
 
-| Area | What exists / what matters | Who matters | Where the real information lives | What is happening now | What needs to keep happening |
-| --- | --- | --- | --- | --- | --- |
-| Home / property |  |  |  |  |  |
-| Insurance / claims |  |  |  |  |  |
-| Money / accounts / bills |  |  |  |  |  |
-| Health / care |  |  |  |  |  |
-| Identity / legal |  |  |  |  |  |
-| Children / dependants |  |  |  |  |  |
-| Pets |  |  |  |  |  |
-| Vehicles / equipment |  |  |  |  |  |
-| Digital services / devices |  |  |  |  |  |
-| Other |  |  |  |  |  |
+| Area | What exists / what matters | Who matters | Where the real information lives |
+| --- | --- | --- | --- |
+| Home / property |  |  |  |
+| Insurance / claims |  |  |  |
+| Money / accounts / bills |  |  |  |
+| Health / care |  |  |  |
+| Identity / legal |  |  |  |
+| Children / dependants |  |  |  |
+| Pets |  |  |  |
+| Vehicles / equipment |  |  |  |
+| Digital services / devices |  |  |  |
+| Other |  |  |  |
 
 ## 3. Open loops
 
-These are the situations that can disappear if they live only in your head, inbox, text messages, or a pile of paperwork.
+These are situations that can disappear if they live only in your head, inbox, text messages, or scattered paperwork.
 
-| Situation | What happened / current context | Next expected step | Who is involved | When to check / deadline | Where supporting information lives |
+| Situation | Current context | Next expected step | Who is involved | Next check / deadline | Where supporting information lives |
 | --- | --- | --- | --- | --- | --- |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
@@ -52,9 +65,9 @@ Examples: an insurance claim waiting on an estimate; a repair that did not solve
 
 ## 4. Recurring responsibilities
 
-Only include things somebody may actually need to keep from being missed while you are unavailable.
+Only include things somebody may genuinely need to keep from being missed while you are unavailable.
 
-| Responsibility | How often / next due | Who or provider matters | Where the governing information lives | What another person needs to know |
+| Responsibility | How often / next due | Who or provider matters | Where the real information lives | What another person needs to know |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
 |  |  |  |  |  |
@@ -66,7 +79,7 @@ Examples: important bills, renewals, prescriptions, appointments, maintenance, r
 
 Record the **arrangement**, not the secret.
 
-| Service / device / information area | Where access or recovery is managed | Emergency / legacy / delegation arrangement | Who knows the arrangement exists | Last checked |
+| Service / device / information area | Where access or recovery is managed | What arrangement is set up | Who knows it exists | Last checked |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
 |  |  |  |  |  |
@@ -76,7 +89,7 @@ Do not copy passwords, recovery codes, security answers, encryption keys, bankin
 
 ## 6. Governing documents and professional contacts
 
-This section is a pointer only. The documents and formal arrangements themselves remain authoritative.
+This section is a pointer only. The documents and formal arrangements themselves remain the source to rely on.
 
 | Document / arrangement | Where the current version lives | Professional / institution | Who should know it exists | Last checked |
 | --- | --- | --- | --- | --- |
@@ -93,7 +106,7 @@ Give someone appropriate the starting point and imagine you cannot answer follow
 - [ ] They can find the records and systems that actually govern important areas.
 - [ ] They can see the current open situations that should not be forgotten.
 - [ ] They can identify the recurring responsibilities that cannot be missed.
-- [ ] They know where protected digital-access or recovery arrangements are managed without needing secrets written here.
+- [ ] They know where protected access or recovery arrangements are managed without needing secrets written here.
 - [ ] They can tell which named people are simply contacts and which authority comes from a formal document or account mechanism.
 
 If the test fails, improve the map or the access path. Do not solve every gap by copying more sensitive information into the plan.
@@ -102,7 +115,7 @@ If the test fails, improve the map or the access path. Do not solve every gap by
 
 Review this plan after a move, relationship change, birth or death, new dependant, major account or property change, new or changed governing document, health or care change, insurance change, new caregiver, major provider change, or change in who you trust to be part of the handoff.
 
-A periodic review is also useful for open loops and recurring responsibilities that may have quietly changed.
+A periodic review is also useful for open loops, recurring responsibilities, and access arrangements that may have quietly changed.
 
 ---
 
