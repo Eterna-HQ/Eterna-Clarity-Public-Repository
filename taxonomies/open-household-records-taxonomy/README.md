@@ -26,10 +26,12 @@ Examples:
 | Record | Primary family | Useful relationships |
 | --- | --- | --- |
 | Home insurance policy | Insurance | Home & property |
-| Vehicle repair invoice | Vehicles & transportation | Household assets, receipts & warranties; financial |
+| Vehicle repair invoice | Vehicles & transportation | Household assets, receipts & warranties; Financial |
 | Passport used for a trip | Identity & civil status | Travel |
-| Child travel consent document | Legal & estate | Travel; education & children |
-| Pay statement used during tax filing | Employment & income | Tax; financial |
+| Travel insurance policy | Insurance | Travel |
+| Pet insurance policy | Insurance | Pets |
+| Child travel consent document | Legal & estate | Travel; Education & children |
+| Pay statement used during tax filing | Employment & income | Tax; Financial |
 | Internet installation invoice with equipment details | Household services & utilities | Household assets, receipts & warranties |
 
 The point is not to deny the other connections. It is to avoid turning every connection into another authoritative copy.
@@ -39,9 +41,10 @@ The point is not to deny the other connections. It is to avoid turning every con
 1. **Choose one primary family.** Classify the record by the household context that most naturally owns its ongoing meaning.
 2. **Do not classify by file format.** A PDF, photo, email, spreadsheet, or paper form can belong to any family.
 3. **Keep secondary meaning as relationships.** A record may relate to several people, properties, trips, assets, accounts, or categories without needing several primary homes.
-4. **Do not infer obligations from the taxonomy.** A category or example does not mean every household must have that record or retain it for a particular period.
-5. **Treat sensitivity and lifecycle fields as review cues.** They help a household or software system ask better questions; they are not legal, privacy, medical, tax, security, or records-retention rules.
-6. **Keep the identifiers stable.** Category IDs are intended to remain stable even if names, examples, display order, or supporting guidance improve over time.
+4. **Keep insurance policies and claims in Insurance.** If a policy covers a home, vehicle, trip, pet, or another subject, Insurance is the primary family and the covered subject remains a relationship.
+5. **Do not infer obligations from the taxonomy.** A category or example does not mean every household must have that record or retain it for a particular period.
+6. **Treat sensitivity and lifecycle fields as review cues.** They help a household or software system ask better questions; they are not legal, privacy, medical, tax, security, or records-retention rules.
+7. **Keep the identifiers stable.** Category IDs are intended to remain stable even if names, examples, display order, or supporting guidance improve over time.
 
 ## The fifteen record families
 
@@ -52,7 +55,7 @@ Records that establish identity or significant personal-status facts: passports,
 Records connected to owning, renting, inspecting, improving, repairing, or managing a home or other property: purchase documents, leases, assessments, inspection reports, renovation records, permits, and major property history.
 
 ### `ohrt.insurance` — Insurance
-Policies, renewals, coverage information, claims, proof of insurance, and insurer correspondence across home, tenant, vehicle, life, travel, and other household insurance.
+Policies, renewals, coverage information, claims, proof of insurance, and insurer correspondence across home, tenant, vehicle, life, travel, pet, and other household insurance.
 
 ### `ohrt.tax` — Tax
 Returns, notices of assessment or reassessment, tax slips, receipts, and supporting records retained for tax purposes. Tax authorities determine actual filing and retention requirements.
@@ -76,16 +79,16 @@ Medication information, vaccination records, benefits documentation, care instru
 Receipts, warranties, manuals, serial numbers, product registrations, repair records, photographs, and other evidence connected to appliances, electronics, furniture, tools, equipment, and other significant belongings.
 
 ### `ohrt.education_children` — Education & children
-School notices, enrolment records, report cards, permission forms, childcare information, activity registrations, and related education or child records.
+Education and training records for household members, plus school, childcare, activity, enrolment, permission, progress, and related child or dependant administration. Examples include transcripts, diplomas or certificates, school records, childcare information, and activity registrations.
 
 ### `ohrt.employment_income` — Employment & income
 Employment agreements, benefits, pay records, pension documentation, professional credentials, and other records connected to work and household income.
 
 ### `ohrt.pets` — Pets
-Veterinary records, vaccination information, registrations, insurance, prescriptions, adoption records, licences, and other records associated with household animals.
+Veterinary records, vaccination information, prescriptions, registrations, licences, adoption records, microchip information, and practical care records associated with household animals. Pet insurance policies remain in Insurance and relate back to Pets.
 
 ### `ohrt.travel` — Travel
-Itineraries, bookings, visas, travel-insurance records, confirmations, rental documents, and other trip-specific information. Identity documents remain in Identity & civil status even when used for travel.
+Itineraries, bookings, visas, confirmations, rental documents, cancellations or refunds, and other trip-specific information. Passports remain in Identity & civil status; travel insurance policies remain in Insurance.
 
 ### `ohrt.household_services_utilities` — Household services & utilities
 Electricity, gas, water, internet, mobile service, security systems, recurring home-service agreements, bills, installation records, and related correspondence that may matter during moves, disputes, repairs, or account changes.
