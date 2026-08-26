@@ -90,7 +90,11 @@ Itineraries, bookings, visas, travel-insurance records, confirmations, rental do
 ### `ohrt.household_services_utilities` — Household services & utilities
 Electricity, gas, water, internet, mobile service, security systems, recurring home-service agreements, bills, installation records, and related correspondence that may matter during moves, disputes, repairs, or account changes.
 
-## Machine-readable fields
+## Human workbook and portable data files
+
+[`taxonomy.xlsx`](taxonomy.xlsx) is the human-facing spreadsheet. Its primary **Taxonomy** sheet uses readable column names, wrapped text, practical column widths, frozen headers, filtering, and the human concepts first. A separate **How to Use** sheet explains the classification rule and boundaries. Technical IDs are moved to a secondary **Technical Reference** sheet so they do not dominate the reading experience.
+
+[`taxonomy.csv`](taxonomy.csv) is deliberately a flat portable data export. CSV files cannot store spreadsheet presentation such as column widths, wrapping, colours, frozen panes, fonts, or worksheet layout, so it should not be treated as the designed human spreadsheet.
 
 Each category in `taxonomy.json` includes:
 
@@ -104,7 +108,7 @@ Each category in `taxonomy.json` includes:
 - `lifecycle.review_triggers` — events that should prompt a currency or relevance review;
 - `related_categories` — common cross-category relationships.
 
-`taxonomy.csv` provides the same top-level category set in a tabular format. `taxonomy.schema.json` documents the JSON structure for implementers.
+`taxonomy.schema.json` documents the JSON structure for implementers.
 
 ## Versioning
 
@@ -124,8 +128,9 @@ See [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) and the repository-wide [`GOVERNANC
 
 ## Files
 
+- [`taxonomy.xlsx`](taxonomy.xlsx) — formatted human-facing workbook with Taxonomy, How to Use, and Technical Reference sheets.
 - [`taxonomy.json`](taxonomy.json) — canonical machine-readable category data for this candidate.
-- [`taxonomy.csv`](taxonomy.csv) — tabular derivative for spreadsheets, imports, and inspection.
+- [`taxonomy.csv`](taxonomy.csv) — flat portable tabular export for data interchange and simple inspection; not the formatted workbook.
 - [`taxonomy.schema.json`](taxonomy.schema.json) — JSON Schema for the published structure.
 - [`CHANGELOG.md`](CHANGELOG.md) — version history.
 - [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) — current licensing boundary.
