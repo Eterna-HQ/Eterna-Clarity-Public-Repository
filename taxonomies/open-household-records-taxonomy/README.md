@@ -98,7 +98,7 @@ Electricity, gas, water, internet, mobile service, security systems, recurring h
 
 ## Human workbook and portable data files
 
-[`taxonomy.xlsx`](taxonomy.xlsx) is the human-facing spreadsheet. Its primary **Taxonomy** sheet uses readable column names, wrapped text, practical column widths, frozen headers, filtering, and the human concepts first. A separate **How to Use** sheet explains the classification rule and boundaries. Technical IDs are moved to a secondary **Technical Reference** sheet so they do not dominate the reading experience.
+[`taxonomy.xlsx`](taxonomy.xlsx) is the human-facing spreadsheet. Its primary **Taxonomy** sheet uses readable column names, wrapped text, practical column widths and row heights, frozen headers, filtering, and the human concepts first. A separate **How to Use** sheet explains the classification rules and important tie-breakers. Technical IDs and machine-oriented fields stay in `taxonomy.json` and `taxonomy.csv` rather than cluttering the human workbook.
 
 [`taxonomy.csv`](taxonomy.csv) is deliberately a flat portable data export. CSV files cannot store spreadsheet presentation such as column widths, wrapping, colours, frozen panes, fonts, or worksheet layout, so it should not be treated as the designed human spreadsheet.
 
@@ -134,7 +134,7 @@ See [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) and the repository-wide [`GOVERNANC
 
 ## Files
 
-- [`taxonomy.xlsx`](taxonomy.xlsx) — formatted human-facing workbook with Taxonomy, How to Use, and Technical Reference sheets.
+- [`taxonomy.xlsx`](taxonomy.xlsx) — formatted human-facing workbook with Taxonomy and How to Use sheets.
 - [`taxonomy.json`](taxonomy.json) — canonical machine-readable category data for this candidate.
 - [`taxonomy.csv`](taxonomy.csv) — flat portable tabular export for data interchange and simple inspection; not the formatted workbook.
 - [`taxonomy.schema.json`](taxonomy.schema.json) — JSON Schema for the published structure.
