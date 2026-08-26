@@ -28,9 +28,14 @@ Initial candidate includes:
 - reinforced the one-detail-one-home rule to reduce stale duplicate information;
 - validated the structure against a single-adult/renter household, a household with children/pets, a caregiver household, a household with no applicable formal legal documents, and a digitally dependent household.
 
+### Licensing decision - 2026-08-26
+
+- founder approved the Creative Commons Attribution 4.0 International licence (CC BY 4.0) for the matched public resource;
+- version 0.1.0 is now reusable under CC BY 4.0 with attribution to Eterna Clarity;
+- the resource remains a Public Review Candidate pending separate final public-release authorization.
+
 ### Before 1.0.0
 
-- founder paired review and approval of the final Brief plus resource;
-- confirm intended reuse license;
 - confirm the template remains small enough to maintain and does not drift into an estate-plan substitute or credential vault after final founder review;
-- verify the Markdown and workbook remain semantically aligned after any final edits.
+- verify the Markdown and workbook remain semantically aligned after any final edits;
+- obtain separate founder authorization for final public release.
