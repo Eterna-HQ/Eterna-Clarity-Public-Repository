@@ -18,6 +18,6 @@ A practical fifteen-family reference model for classifying household records usi
 
 [`open-small-business-records-taxonomy/`](open-small-business-records-taxonomy/)
 
-A practical fifteen-family reference model for classifying small-business records by the part of the business accountable for the truth each record represents, while preserving cross-business context through relationships and metadata.
+A practical fifteen-family reference model for classifying small-business records by the business responsibility that needs the information to stay correct, while preserving other relevant contexts through relationships and metadata. The model describes responsibilities rather than departments, so it also works when one person wears several hats.
 
 **Current status:** `0.1.0` public review candidate. A formatted human workbook, human-readable guide, JSON, CSV, and JSON Schema are available for inspection. A final reuse license has not yet been assigned, so this candidate is not yet the final open release.
