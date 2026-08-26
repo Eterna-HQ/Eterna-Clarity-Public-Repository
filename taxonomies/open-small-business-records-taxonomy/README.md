@@ -116,7 +116,7 @@ The taxonomy does not require a particular software system. For implementations,
 
 ## Human workbook and portable data files
 
-[`taxonomy.xlsx`](taxonomy.xlsx) is the human-facing workbook. It opens on **Decision Guide**, which gives the primary question, small-business note, and the main edge cases first. **Taxonomy** keeps the core reading view to five columns: category, meaning, business responsibility, examples, and when to use it. **Category Details** carries handling cues, review triggers, and relationships so the main sheet does not become an eight-column wall of text. **Record Metadata** explains the optional implementation fields, while **Technical Reference** keeps stable IDs and machine-oriented values out of the main reading experience.
+[`taxonomy.xlsx`](taxonomy.xlsx) is the human-facing workbook. It opens on **Decision Guide**, which puts the primary question, one-person-business rule, and ambiguous-record tie-breakers first. **Taxonomy** is the main reading sheet and keeps the useful decision information to five columns: category, meaning, business responsibility, examples, and when to use it. **Category Details** carries handling cues, review triggers, and common relationships so the main sheet stays readable. **Implementation Notes** explains the optional metadata fields and the rule that classification should point to an authoritative system or original rather than create a competing source of truth.
 
 [`taxonomy.csv`](taxonomy.csv) is the flat portable export for data interchange. CSV cannot retain spreadsheet presentation such as widths, wrapping, frozen panes, worksheet structure, fonts, or fills, so it is not the designed human spreadsheet.
 
