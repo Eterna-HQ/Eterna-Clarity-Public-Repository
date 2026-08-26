@@ -1,6 +1,5 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/Eterna-HQ/Eterna-Clarity-Public-Repository/blob/main/taxonomies/open-small-business-records-taxonomy/taxonomy.schema.json",
   "title": "Open Small Business Records Taxonomy schema",
   "type": "object",
   "required": [
@@ -12,93 +11,56 @@
     "maintainer",
     "classification_principle",
     "accountability_test",
+    "small_business_note",
     "tie_breakers",
-    "sensitivity_levels",
-    "recommended_record_metadata",
+    "recommended_metadata",
     "categories"
   ],
   "properties": {
     "title": {"type": "string"},
     "short_name": {"const": "OSBRT"},
     "namespace": {"const": "osbrt"},
-    "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "version": {"type": "string"},
     "status": {"enum": ["public_review_candidate", "released", "superseded"]},
     "maintainer": {"type": "string"},
     "license": {"type": ["string", "null"]},
     "classification_principle": {"type": "string"},
     "accountability_test": {"type": "string"},
+    "small_business_note": {"type": "string"},
     "tie_breakers": {"type": "array", "items": {"type": "string"}},
-    "sensitivity_levels": {
-      "type": "object",
-      "required": ["context_dependent", "often_sensitive", "highly_sensitive"],
-      "additionalProperties": false,
-      "properties": {
-        "context_dependent": {"type": "string"},
-        "often_sensitive": {"type": "string"},
-        "highly_sensitive": {"type": "string"}
-      }
-    },
-    "recommended_record_metadata": {
+    "recommended_metadata": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["field", "purpose", "example"],
-        "additionalProperties": false,
+        "required": ["field", "purpose"],
         "properties": {
           "field": {"type": "string"},
-          "purpose": {"type": "string"},
-          "example": {"type": "string"}
-        }
+          "purpose": {"type": "string"}
+        },
+        "additionalProperties": false
       }
     },
     "categories": {
       "type": "array",
       "minItems": 15,
       "maxItems": 15,
-      "items": {"$ref": "#/$defs/category"}
-    }
-  },
-  "additionalProperties": false,
-  "$defs": {
-    "category": {
-      "type": "object",
-      "required": ["id", "slug", "name", "display_order", "definition", "accountability_cue", "examples", "applicability", "sensitivity", "lifecycle", "related_categories"],
-      "additionalProperties": false,
-      "properties": {
-        "id": {"type": "string", "pattern": "^osbrt\\.[a-z0-9_]+$"},
-        "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
-        "name": {"type": "string"},
-        "display_order": {"type": "integer", "minimum": 0},
-        "definition": {"type": "string"},
-        "accountability_cue": {"type": "string"},
-        "examples": {"type": "array", "items": {"type": "string"}},
-        "applicability": {
-          "type": "object",
-          "required": ["mode", "when"],
-          "additionalProperties": false,
-          "properties": {"mode": {"const": "conditional"}, "when": {"type": "string"}}
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "definition", "responsibility", "examples", "use_when", "handling_cue", "review_trigger", "related_categories"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^osbrt\\.[a-z0-9_]+"},
+          "name": {"type": "string"},
+          "definition": {"type": "string"},
+          "responsibility": {"type": "string"},
+          "examples": {"type": "array", "items": {"type": "string"}},
+          "use_when": {"type": "string"},
+          "handling_cue": {"enum": ["context_dependent", "often_sensitive", "highly_sensitive"]},
+          "review_trigger": {"type": "string"},
+          "related_categories": {"type": "array", "items": {"type": "string", "pattern": "^osbrt\\.[a-z0-9_]+"}}
         },
-        "sensitivity": {
-          "type": "object",
-          "required": ["level", "note"],
-          "additionalProperties": false,
-          "properties": {
-            "level": {"enum": ["context_dependent", "often_sensitive", "highly_sensitive"]},
-            "note": {"type": "string"}
-          }
-        },
-        "lifecycle": {
-          "type": "object",
-          "required": ["review_triggers"],
-          "additionalProperties": false,
-          "properties": {"review_triggers": {"type": "array", "items": {"type": "string"}}}
-        },
-        "related_categories": {
-          "type": "array",
-          "uniqueItems": true,
-          "items": {"type": "string", "pattern": "^osbrt\\.[a-z0-9_]+$"}
-        }
+        "additionalProperties": false
       }
     }
-  }
+  },
+  "additionalProperties": false
 }
