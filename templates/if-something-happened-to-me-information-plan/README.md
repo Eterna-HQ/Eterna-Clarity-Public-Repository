@@ -46,7 +46,7 @@ Even without passwords, the completed plan can reveal sensitive household contex
 - [`PLAN-TEMPLATE.md`](PLAN-TEMPLATE.md) - browser-readable, copyable handoff template.
 - [`information-plan.xlsx`](information-plan.xlsx) - formatted working workbook with a Start Here page, Handoff Map, Open Loops, Recurring Responsibilities, Authority & Access, and Review & Test.
 - [`CHANGELOG.md`](CHANGELOG.md) - version history and review boundaries.
-- [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) - current licensing boundary.
+- [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) - current licensing terms.
 
 ## How this differs from the Family Emergency Document Checklist
 
@@ -65,4 +65,8 @@ Useful preparedness context reviewed for this candidate:
 
 ## Licensing status
 
-No reuse license has been assigned to this public review candidate yet. Public visibility should not be interpreted as blanket permission to copy, modify, redistribute, or incorporate the resource elsewhere. Licensing must be resolved deliberately before a final open release.
+Version 0.1.0 is licensed by Eterna Clarity under the **Creative Commons Attribution 4.0 International license (CC BY 4.0)**. You may share and adapt the Eterna Clarity-authored material, including commercially, provided the attribution and other licence requirements are followed.
+
+Recommended attribution: **If Something Happened to Me Information Plan by Eterna Clarity, licensed under CC BY 4.0.**
+
+See [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) for the current licensing terms. The resource remains a Public Review Candidate until Eterna Clarity separately authorizes its final public release.
