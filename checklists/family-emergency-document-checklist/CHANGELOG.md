@@ -26,9 +26,14 @@ The paired Brief/resource review made the asset more useful to a real household 
 - improved the workbook input model: `Applies?` and `Ready?` use simple drop-down states, free-text guidance warns against storing secrets, and the main checklist language is shorter and more natural;
 - expanded source context to current Government of Canada emergency-kit and disability-preparedness guidance in addition to household-plan and pet/service-animal guidance.
 
+### Licensing decision — 2026-08-26
+
+- founder approved the Creative Commons Attribution 4.0 International licence (CC BY 4.0) for the matched public resource;
+- version 0.1.0 is now reusable under CC BY 4.0 with attribution to Eterna Clarity;
+- the resource remains a Public Review Candidate pending separate final public-release authorization.
+
 ### Before 1.0.0
 
-- founder paired review and approval;
-- confirm intended reuse license;
 - validate the checklist against varied household scenarios without turning optional items into universal requirements;
-- ensure accessibility guidance remains balanced with protection of sensitive originals and credentials.
+- ensure accessibility guidance remains balanced with protection of sensitive originals and credentials;
+- obtain separate founder authorization for final public release.
