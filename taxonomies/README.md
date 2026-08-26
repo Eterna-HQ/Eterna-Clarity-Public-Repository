@@ -12,4 +12,12 @@ Taxonomies published here should explain their intended scope, category logic, e
 
 A practical fifteen-family reference model for classifying household records using one primary category plus explicit relationships to other relevant contexts.
 
-**Current status:** `0.1.0` public review candidate. The human-readable guide, JSON, CSV, and JSON Schema are available for inspection. A final reuse license has not yet been assigned, so this candidate is not yet the final open release.
+**Current status:** `0.1.0` public review candidate. A formatted human workbook, human-readable guide, JSON, CSV, and JSON Schema are available for inspection. A final reuse license has not yet been assigned, so this candidate is not yet the final open release.
+
+### Open Small Business Records Taxonomy
+
+[`open-small-business-records-taxonomy/`](open-small-business-records-taxonomy/)
+
+A practical fifteen-family reference model for classifying small-business records by the part of the business accountable for the truth each record represents, while preserving cross-business context through relationships and metadata.
+
+**Current status:** `0.1.0` public review candidate. A formatted human workbook, human-readable guide, JSON, CSV, and JSON Schema are available for inspection. A final reuse license has not yet been assigned, so this candidate is not yet the final open release.
