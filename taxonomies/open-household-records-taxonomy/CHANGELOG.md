@@ -26,12 +26,15 @@ The original CSV was structurally valid but too technical to serve as the design
 
 ### Final paired validation corrections — 2026-08-25
 
-A final cross-check of the Brief, human workbook and machine-readable package found and corrected two semantic gaps before 1.0.0:
+A final cross-check of the Brief, human workbook and machine-readable package found and corrected several semantic boundaries before 1.0.0:
 
-- **Insurance ownership:** travel and pet insurance policies now classify primarily under **Insurance**, with Travel or Pets retained as relationships. Pet and Travel examples/definitions were corrected so they no longer imply a second primary home for the same policy.
-- **Education coverage:** **Education & children** now explicitly covers education and training records for household members generally, including post-secondary enrolment, transcripts, diplomas and certificates, while retaining child/dependant school, childcare and activity administration where that is the record's primary purpose.
+- **Insurance ownership:** travel and pet insurance policies classify primarily under **Insurance**, with Travel or Pets retained as relationships. Health or supplemental insurance policies are likewise Insurance records.
+- **Education coverage:** **Education & children** explicitly covers education and training records for household members generally, including post-secondary enrolment, transcripts, diplomas and certificates, while retaining child/dependant school, childcare and activity administration where that is the record's primary purpose.
+- **Domain-specific agreements and financing:** specific household context now takes precedence over generic document type. Leases remain Home & property records; vehicle financing remains Vehicles & transportation; employment agreements remain Employment & income. **Legal & estate** is reserved for records whose main purpose is personal legal authority, status, representation, court matters or estate matters, and **Financial** is reserved for general financial records that do not belong more naturally in a specific domain.
+- **Coverage, employment benefits and care:** insurance policies stay in **Insurance**; employment-benefit enrollment or plan administration stays in **Employment & income**; medical, treatment, medication, provider and care records stay in **Health & care**.
+- **Sensitivity cue refinement:** **Education & children** moved from a blanket `highly_sensitive` category cue to `often_sensitive`, with the note preserving the higher-risk considerations that can apply to records involving children, custody, location, care or accommodations.
 
-The README, JSON, CSV and XLSX were synchronized to those corrections and revalidated for the same 15-category model.
+The README, JSON, CSV and XLSX were synchronized to these corrections and revalidated against the same 15-category model.
 
 ### Review boundaries before 1.0.0
 

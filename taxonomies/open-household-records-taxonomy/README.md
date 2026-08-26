@@ -30,6 +30,7 @@ Examples:
 | Passport used for a trip | Identity & civil status | Travel |
 | Travel insurance policy | Insurance | Travel |
 | Pet insurance policy | Insurance | Pets |
+| Employee benefits enrollment | Employment & income | Insurance when it points to an insurance policy |
 | Child travel consent document | Legal & estate | Travel; Education & children |
 | Pay statement used during tax filing | Employment & income | Tax; Financial |
 | Internet installation invoice with equipment details | Household services & utilities | Household assets, receipts & warranties |
@@ -42,9 +43,11 @@ The point is not to deny the other connections. It is to avoid turning every con
 2. **Do not classify by file format.** A PDF, photo, email, spreadsheet, or paper form can belong to any family.
 3. **Keep secondary meaning as relationships.** A record may relate to several people, properties, trips, assets, accounts, or categories without needing several primary homes.
 4. **Keep insurance policies and claims in Insurance.** If a policy covers a home, vehicle, trip, pet, or another subject, Insurance is the primary family and the covered subject remains a relationship.
-5. **Do not infer obligations from the taxonomy.** A category or example does not mean every household must have that record or retain it for a particular period.
-6. **Treat sensitivity and lifecycle fields as review cues.** They help a household or software system ask better questions; they are not legal, privacy, medical, tax, security, or records-retention rules.
-7. **Keep the identifiers stable.** Category IDs are intended to remain stable even if names, examples, display order, or supporting guidance improve over time.
+5. **Prefer a specific household context over a generic document type.** A lease belongs with Home & property; vehicle financing belongs with Vehicles & transportation; an employment agreement belongs with Employment & income. Legal & estate is reserved for records whose main purpose is personal legal authority, status, representation, court matters, or estate matters.
+6. **Separate coverage, employment administration, and care.** An insurance policy belongs in Insurance; employment-benefit enrollment or plan administration belongs in Employment & income; medical, treatment, medication, provider, and care records belong in Health & care.
+7. **Do not infer obligations from the taxonomy.** A category or example does not mean every household must have that record or retain it for a particular period.
+8. **Treat sensitivity and lifecycle fields as review cues.** They help a household or software system ask better questions; they are not legal, privacy, medical, tax, security, or records-retention rules.
+9. **Keep the identifiers stable.** Category IDs are intended to remain stable even if names, examples, display order, or supporting guidance improve over time.
 
 ## The fifteen record families
 
@@ -55,34 +58,34 @@ Records that establish identity or significant personal-status facts: passports,
 Records connected to owning, renting, inspecting, improving, repairing, or managing a home or other property: purchase documents, leases, assessments, inspection reports, renovation records, permits, and major property history.
 
 ### `ohrt.insurance` — Insurance
-Policies, renewals, coverage information, claims, proof of insurance, and insurer correspondence across home, tenant, vehicle, life, travel, pet, and other household insurance.
+Policies, renewals, coverage information, claims, proof of insurance, and insurer correspondence across home, tenant, vehicle, life, health or supplemental, travel, pet, and other household insurance.
 
 ### `ohrt.tax` — Tax
 Returns, notices of assessment or reassessment, tax slips, receipts, and supporting records retained for tax purposes. Tax authorities determine actual filing and retention requirements.
 
 ### `ohrt.legal_estate` — Legal & estate
-Wills, powers of attorney, representation documents, court records, estate documents, consent documents, and legal agreements.
+Wills, powers of attorney, personal directives or representation documents, court orders, estate records, guardianship or custody orders, consent documents, separation agreements, and other records whose main purpose is personal legal authority, status, representation, or estate matters.
 
 ### `ohrt.emergency_continuity` — Emergency & continuity
 Emergency plans, important contacts, care instructions, accessible reference copies, evacuation information, and other material another appropriate person may need when normal household routines are disrupted.
 
 ### `ohrt.financial` — Financial
-Banking, borrowing, investments, financing agreements, statements, and other household financial records that do not belong more naturally under tax, property, or another specific family.
+Banking, general borrowing, investments, account statements, and other household financial records that do not belong more naturally under a specific property, vehicle, employment, tax, or other family.
 
 ### `ohrt.vehicles_transportation` — Vehicles & transportation
 Registration, purchase and financing records, inspections, maintenance history, service invoices, and other records tied to vehicles or recurring transportation assets.
 
 ### `ohrt.health_care` — Health & care
-Medication information, vaccination records, benefits documentation, care instructions, dental or vision records, provider information, and other records used to understand or coordinate care.
+Medication information, vaccination records, care plans or instructions, treatment or test summaries, provider information, dental or vision records, medical-equipment information, and other records used to understand or coordinate health and care.
 
 ### `ohrt.household_assets_receipts_warranties` — Household assets, receipts & warranties
 Receipts, warranties, manuals, serial numbers, product registrations, repair records, photographs, and other evidence connected to appliances, electronics, furniture, tools, equipment, and other significant belongings.
 
 ### `ohrt.education_children` — Education & children
-Education and training records for household members, plus school, childcare, activity, enrolment, permission, progress, and related child or dependant administration. Examples include transcripts, diplomas or certificates, school records, childcare information, and activity registrations.
+Education and training records for household members, plus school, childcare, activity, enrolment, permission, progress, and related child or dependant administration. Examples include post-secondary enrolment records, transcripts, diplomas or certificates, school records, childcare information, and activity registrations.
 
 ### `ohrt.employment_income` — Employment & income
-Employment agreements, benefits, pay records, pension documentation, professional credentials, and other records connected to work and household income.
+Employment agreements, compensation, employment-benefit enrollment or plan administration, pay records, pension documentation, professional credentials, and other records connected to work and household income. An underlying insurance policy remains an Insurance record.
 
 ### `ohrt.pets` — Pets
 Veterinary records, vaccination information, prescriptions, registrations, licences, adoption records, microchip information, and practical care records associated with household animals. Pet insurance policies remain in Insurance and relate back to Pets.
