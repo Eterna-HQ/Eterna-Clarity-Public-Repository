@@ -6,15 +6,15 @@ All material changes to the Open Small Business Records Taxonomy should be recor
 
 **Status:** Public review candidate
 
-Initial public candidate containing:
+Current candidate contains:
 
 - fifteen top-level small-business record families;
 - stable `osbrt.*` identifiers;
-- an accountability-based primary-classification rule;
+- a responsibility-based primary-classification rule that works even when one person wears several business hats;
 - explicit tie-breakers for contracts, invoices, customer vs project records, procurement vs payment, workforce vs payroll, assets vs inventory, risk vs compliance, technology services, strategy, and knowledge;
-- human-readable definitions, examples, applicability guidance, sensitivity cues, lifecycle review triggers, and common relationships;
-- recommended record metadata separating category, record type, responsibility, lifecycle, relationships, and authority reference;
-- a formatted human-facing XLSX workbook with Decision Guide, Taxonomy, Category Details, Record Metadata, Technical Reference, and References sheets;
+- human-readable definitions, examples, use-when guidance, handling cues, review triggers, and common relationships;
+- recommended metadata separating category, record type, responsibility, lifecycle, relationships, and authority reference;
+- a formatted human-facing XLSX workbook with Decision Guide, Taxonomy, Category Details, and Implementation Notes sheets;
 - JSON and CSV representations;
 - JSON Schema for the machine-readable structure.
 
@@ -42,9 +42,9 @@ A final paired review of the Brief and resource tightened the model for actual s
 - accountability cues were shortened from repetitive sentence templates into direct responsibility labels;
 - the human guide explicitly explains why there is no generic `Contracts` family and keeps agreements with the responsibility they govern;
 - the Brief was shortened and differentiated from the household taxonomy: it teaches the responsibility model, authority boundary, and difficult business distinctions while the resource carries the full fifteen-family reference;
-- a package-integrity defect was corrected: the GitHub `taxonomy.json` had been reduced to a simplified subset while the workbook, CSV, and README retained the richer taxonomy. The canonical JSON is restored to the full schema-valid category definitions, examples, applicability rules, lifecycle triggers, relationships, ten tie-breakers, and nine recommended metadata fields;
-- the workbook now opens on **Decision Guide**, includes the one-person-business rule, reduces the main **Taxonomy** sheet from eight columns to five, moves handling/review/relationship material to **Category Details**, preserves the category column while scrolling, and expands metadata rows so the text is readable without hidden overflow;
-- reference URLs in the workbook are clickable, and technical identifiers remain outside the primary human reading path.
+- a package-integrity defect was corrected: the GitHub `taxonomy.json` had diverged from the human asset. The canonical JSON is now a schema-valid machine model carrying all fifteen category identities, responsibility cues, examples, use-when guidance, handling cues, review triggers, relationships, ten tie-breakers, and nine recommended metadata fields;
+- the workbook now opens on **Decision Guide**, includes the one-person-business rule, reduces the main **Taxonomy** sheet from eight columns to five, moves handling/review/relationship material to **Category Details**, preserves the category column while scrolling, and keeps implementation/authority guidance on **Implementation Notes**;
+- machine identifiers stay out of the primary human reading path, while the CSV remains a portable data export rather than pretending to be the designed spreadsheet.
 
 ### Review boundaries before 1.0.0
 
