@@ -5,13 +5,15 @@
 **Namespace:** `osbrt`  
 **Maintainer:** Eterna Clarity
 
-The Open Small Business Records Taxonomy (OSBRT) is a practical, software-independent reference model for classifying the records that accumulate while a small business operates.
+The Open Small Business Records Taxonomy (OSBRT) is a practical way to decide what a business record is mainly for, which responsibility needs to keep it correct, and what else it should stay connected to.
 
 Its core rule is:
 
-> Give each record one primary home based on the part of the business accountable for the truth it represents. Keep its other business contexts as relationships or metadata rather than competing primary copies.
+> Give each record one primary category based on the business responsibility that needs the information to stay correct. Keep the other connections as relationships or metadata instead of creating competing primary copies.
 
-The taxonomy is not a mandated screen layout and it is not the current Clarity Business category interface. A product can show fewer or broader customer-facing categories while mapping records to this richer reference model underneath.
+OSBRT is not an org chart. A one-person business can use the same model as a larger company: one person may handle finance, sales, purchasing, delivery, and operations, while those responsibilities still remain meaningfully different. The categories describe the work, not the headcount.
+
+The taxonomy is also not a mandated screen layout and it is not the current Clarity Business category interface. A product can show fewer or broader customer-facing categories while mapping records to this richer reference model underneath.
 
 ## Start with responsibility, not the file name
 
@@ -19,7 +21,7 @@ A PDF is a file format. `Contract`, `invoice`, `photo`, and `checklist` are reco
 
 Ask instead:
 
-**If this record became wrong or disappeared tomorrow, who would have to deal with the consequence first?**
+**If this record became wrong or disappeared tomorrow, which business responsibility would have to fix the problem?**
 
 Examples:
 
@@ -28,17 +30,17 @@ Examples:
 | Customer master agreement | Customers & revenue | Finance, accounting & tax; Projects, jobs & delivery |
 | Project change order | Projects, jobs & delivery | Customers & revenue; Finance, accounting & tax |
 | Supplier agreement | Vendors & procurement | Finance, accounting & tax |
-| Purchase invoice | Finance, accounting & tax | Vendor; Asset, inventory, or project context as applicable |
-| Employment agreement | People & workforce | Finance, accounting & tax; Compliance if applicable |
-| Equipment maintenance record | Assets & facilities | Vendor; Finance if an invoice is related |
+| Purchase invoice | Finance, accounting & tax | Vendors & procurement; Assets & facilities, Inventory & supplies, or Projects, jobs & delivery as applicable |
+| Employment agreement | People & workforce | Finance, accounting & tax; Compliance, licences & safety if applicable |
+| Equipment maintenance record | Assets & facilities | Vendors & procurement; Finance, accounting & tax if an invoice is related |
 | Software service agreement | Technology, access & data | Vendors & procurement; Finance, accounting & tax |
 | Safety inspection required by regulation | Compliance, licences & safety | Assets & facilities; Insurance, risk & incidents |
 
 The rule is not “store only one copy under all circumstances.” Accounting, payroll, regulated, contractual, or other systems of record may have their own authority and retention duties. OSBRT is a classification layer: it helps a business identify the record’s primary operational meaning and relate authorized representations without inventing a new authoritative version in every folder.
 
-## Tie-breakers for ambiguous records
+## When two categories both seem right
 
-1. **Operational responsibility beats format and generic type.** Do not build catch-all folders called `PDFs`, `Contracts`, `Invoices`, or `Meeting Notes` and assume the job is done.
+1. **Follow the responsibility, not the label.** Do not build catch-all folders called `PDFs`, `Contracts`, `Invoices`, or `Meeting Notes` and assume the job is done. There is intentionally no generic `Contracts` family: a contract stays with the business responsibility it actually governs.
 2. **Financial transaction evidence stays financial.** Sales and purchase invoices, receipts, bank records, accounting books, tax support, and remittance evidence belong in **Finance, accounting & tax** when that is their primary purpose.
 3. **Relationship is different from delivery.** A master customer agreement or commercial account record belongs in **Customers & revenue**; a scope, work order, change order, field record, or completion package for a specific engagement belongs in **Projects, jobs & delivery**.
 4. **Procurement is different from payment.** Supplier selection, purchase orders, supplier agreements, and procurement correspondence belong in **Vendors & procurement**; the resulting purchase invoice normally belongs in Finance.
@@ -104,7 +106,7 @@ The taxonomy does not require a particular software system. For implementations,
 | --- | --- |
 | `primary_category_id` | Stable OSBRT family that owns the record's primary operational meaning. |
 | `record_type` | Human record type such as invoice, quote, work order, agreement, photo, or checklist. |
-| `responsible_business_area` | Team, role, or function accountable for correctness and follow-up. |
+| `responsible_business_area` | Role, function, or responsibility that owns correctness and follow-up. In a small business, the same person may fill several of these responsibilities. |
 | `status` | Current state such as draft, active, completed, superseded, closed, or archived. |
 | `sensitivity` | Local handling cue for the specific record; not a legal classification. |
 | `review_or_lifecycle_state` | When or why the record should be reviewed, renewed, superseded, or closed. |
@@ -114,7 +116,7 @@ The taxonomy does not require a particular software system. For implementations,
 
 ## Human workbook and portable data files
 
-[`taxonomy.xlsx`](taxonomy.xlsx) is the human-facing workbook. The main **Taxonomy** sheet puts the category name, meaning, accountability cue, examples, applicability, handling cue, review triggers, and relationships in readable columns with wrapped text, filters, and a frozen header. **Decision Guide** explains the tie-breakers and edge cases. **Record Metadata** explains the recommended implementation fields. **Technical Reference** keeps stable IDs and machine-oriented values out of the main reading experience.
+[`taxonomy.xlsx`](taxonomy.xlsx) is the human-facing workbook. It opens on **Decision Guide**, which gives the primary question, small-business note, and the main edge cases first. **Taxonomy** keeps the core reading view to five columns: category, meaning, business responsibility, examples, and when to use it. **Category Details** carries handling cues, review triggers, and relationships so the main sheet does not become an eight-column wall of text. **Record Metadata** explains the optional implementation fields, while **Technical Reference** keeps stable IDs and machine-oriented values out of the main reading experience.
 
 [`taxonomy.csv`](taxonomy.csv) is the flat portable export for data interchange. CSV cannot retain spreadsheet presentation such as widths, wrapping, frozen panes, worksheet structure, fonts, or fills, so it is not the designed human spreadsheet.
 
