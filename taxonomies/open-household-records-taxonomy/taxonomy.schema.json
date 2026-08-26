@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Eterna-HQ/Eterna-Clarity-Public-Repository/blob/main/taxonomies/open-household-records-taxonomy/taxonomy.schema.json",
+  "title": "Open Household Records Taxonomy schema",
+  "type": "object",
+  "required": ["title", "short_name", "namespace", "version", "status", "maintainer", "classification_principle", "retrieval_test", "sensitivity_levels", "categories"],
+  "properties": {
+    "title": {"type": "string"},
+    "short_name": {"const": "OHRT"},
+    "namespace": {"const": "ohrt"},
+    "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "status": {"enum": ["public_review_candidate", "released", "superseded"]},
+    "maintainer": {"type": "string"},
+    "license": {"type": ["string", "null"]},
+    "classification_principle": {"type": "string"},
+    "retrieval_test": {"type": "string"},
+    "sensitivity_levels": {
+      "type": "object",
+      "required": ["context_dependent", "often_sensitive", "highly_sensitive"],
+      "additionalProperties": false,
+      "properties": {
+        "context_dependent": {"type": "string"},
+        "often_sensitive": {"type": "string"},
+        "highly_sensitive": {"type": "string"}
+      }
+    },
+    "categories": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/category"}
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "category": {
+      "type": "object",
+      "required": ["id", "slug", "name", "display_order", "definition", "examples", "applicability", "sensitivity", "lifecycle", "related_categories"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^ohrt\\.[a-z0-9_]+$"},
+        "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "name": {"type": "string"},
+        "display_order": {"type": "integer", "minimum": 0},
+        "definition": {"type": "string"},
+        "examples": {"type": "array", "items": {"type": "string"}},
+        "applicability": {
+          "type": "object",
+          "required": ["mode", "when"],
+          "additionalProperties": false,
+          "properties": {
+            "mode": {"const": "conditional"},
+            "when": {"type": "string"}
+          }
+        },
+        "sensitivity": {
+          "type": "object",
+          "required": ["level", "note"],
+          "additionalProperties": false,
+          "properties": {
+            "level": {"enum": ["context_dependent", "often_sensitive", "highly_sensitive"]},
+            "note": {"type": "string"}
+          }
+        },
+        "lifecycle": {
+          "type": "object",
+          "required": ["review_triggers"],
+          "additionalProperties": false,
+          "properties": {
+            "review_triggers": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "related_categories": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "pattern": "^ohrt\\.[a-z0-9_]+$"}
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
