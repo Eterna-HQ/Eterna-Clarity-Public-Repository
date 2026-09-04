@@ -1,48 +1,45 @@
-# Eterna Clarity Public Repository
+# Eterna Clarity Public Resources
 
-Open resources, frameworks, templates, schemas, tools, methodologies, and standards from [Eterna Clarity](https://eternaclarity.com/).
+Free tools, templates and open resources from [Eterna Clarity](https://eternaclarity.com/).
 
-This repository is the **inspectable, versioned, downloadable public workshop** for selected Eterna-created resources. The polished human-facing Eterna Repository on `eternaclarity.com` is the corresponding library and explanation layer.
+If you are here because you want to **use something**, start below. You do not need an account or an email signup.
 
-## What belongs here
+## Start here
 
-Resources may include:
+### If Something Happened to Me Information Plan
 
-- [Frameworks](frameworks/)
-- [Templates](templates/)
-- [Checklists](checklists/)
-- [Schemas](schemas/)
-- [Taxonomies](taxonomies/)
-- [Methodologies](methodologies/)
-- [Tools](tools/)
-- [Standards](standards/)
+A simple workbook that helps someone you trust understand what needs attention if you are suddenly unavailable—who to contact, where important information lives, what is already in progress, and what cannot be missed.
 
-A resource is added only when it is useful on its own, safe to publish, and ready to be maintained as a public artifact.
+- [Open the resource folder](templates/if-something-happened-to-me-information-plan/)
+- [Download the Excel workbook](templates/if-something-happened-to-me-information-plan/information-plan.xlsx)
+- [Read or copy the browser version](templates/if-something-happened-to-me-information-plan/PLAN-TEMPLATE.md)
 
-## What does not belong here
+### Family Emergency Document Checklist
 
-This repository is **not** a public mirror of Eterna's private operating environment. It does not publish Eterna OS, private infrastructure, credentials, customer information, internal-only implementation details, unfinished research, or material that has not been deliberately approved for public release.
+A practical checklist for making sure your household can quickly find the information you may need during an emergency, including contacts, medications, insurance, important documents, care plans and pet information.
 
-## Repository model
+- [Open the resource folder](checklists/family-emergency-document-checklist/)
+- [Download the Excel workbook](checklists/family-emergency-document-checklist/checklist.xlsx)
+- [Read or print the browser version](checklists/family-emergency-document-checklist/CHECKLIST.md)
 
-Eterna uses a simple split:
+## Open record taxonomies
 
-- **Eterna Repository** — polished, human-facing explanations and resource pages on the Eterna Clarity website.
-- **This GitHub repository** — inspectable source, versioned artifacts, downloadable resources, and implementations where openness makes the resource more useful.
+We also publish structured record lists for people building their own filing, information-management or software systems. These are more technical than the household resources above.
 
-Not every website resource requires source code, and not every public GitHub artifact requires a standalone editorial article.
+- [Open Household Records Taxonomy](taxonomies/open-household-records-taxonomy/)
+- [Open Small-Business Records Taxonomy](taxonomies/open-small-business-records-taxonomy/)
 
-## Current status
+## What you will find inside a resource
 
-The repository foundation is live. Public assets will be added deliberately as individual resources complete evidence review, implementation, validation, and release approval.
+Most resource folders include the thing you can actually use, a browser-readable version where useful, a short README explaining what it is, version history, and the licence that applies to that resource.
 
-## Referencing a resource
-
-When referencing an Eterna resource, prefer the resource's canonical path and, where relevant, the exact version or release. Do not assume that one resource's terms or implementation details apply to another.
+GitHub is useful when you want the original files, source material or version history. For the broader company and our other work, visit [Eterna Clarity](https://eternaclarity.com/).
 
 ## Licensing
 
-A repository-wide license has not yet been adopted. Individual resources may receive explicit licensing as they are released. Until then, do not assume that all future assets in this repository share identical licensing terms.
+Licensing is set per resource. Check the `LICENSE-NOTICE.md` in the resource you are using rather than assuming every item in this repository has identical terms.
+
+Several current Eterna Clarity-authored resources use **Creative Commons Attribution 4.0 International (CC BY 4.0)**, which allows sharing and adaptation, including commercial use, when the licence and attribution requirements are followed.
 
 ---
 

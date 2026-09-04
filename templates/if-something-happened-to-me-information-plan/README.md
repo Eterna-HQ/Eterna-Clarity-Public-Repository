@@ -1,72 +1,96 @@
 # If Something Happened to Me Information Plan
 
-**Version:** 0.1.0  
-**Status:** Public review candidate  
-**Maintainer:** Eterna Clarity
+A free workbook that helps someone you trust understand what needs attention if you are suddenly unavailable.
 
-This is a household continuity handoff template for the days and weeks when the person who normally knows how everything works is unavailable.
+**[Download the Excel workbook](information-plan.xlsx)** · [Open the browser version](PLAN-TEMPLATE.md)
 
-It is not an estate plan, password vault, emergency-document checklist, or duplicate archive. Taken together, the plan should answer five practical questions:
+## What this is
 
-1. **Who matters?**
-2. **What exists?**
-3. **Where does the real information live?**
-4. **What is happening right now?**
-5. **What needs to keep happening?**
+Most households have important information spread across inboxes, folders, apps, providers and one person’s memory. If that person cannot answer questions for a while, somebody else may know where the documents are but still have no idea what is currently happening or what needs attention next.
 
-The useful part is often the context between records: the open insurance claim, the contractor waiting for a reply, the prescription that must be renewed, the bill that cannot be missed, or the person who already understands part of the situation.
+This plan gives them a starting point.
 
-## Start small
+It helps you record:
 
-Do not try to document your entire life. Begin with the places where another person would lose time, money, care continuity, or important context if you could not answer questions for two weeks.
+- who they should contact first;
+- where important household information lives;
+- what is currently in progress;
+- which recurring responsibilities cannot be missed; and
+- where protected access or recovery arrangements are managed.
 
-A useful first pass is:
+It is not meant to become a copy of every document you own.
 
-- two or three people to contact first;
-- three to five household areas another person could not easily reconstruct;
-- anything open or due in the next two weeks that should not disappear into your inbox or memory; and
-- where protected digital-access or recovery arrangements are managed.
+## When it helps
 
-## Keep one home for each detail
+This is useful when one person carries a lot of the household context about bills, providers, appointments, repairs, insurance matters, care responsibilities, important documents or digital accounts.
 
-The Handoff Map is an index, not another place to repeat everything. Open situations belong in **Open Loops**. Recurring obligations belong in **Recurring Responsibilities**. Formal documents stay where they actually live. Protected-access details stay in the service or recovery mechanism that governs them.
+You might use it when:
 
-If a detail already has a clear home, point to it rather than copying it into several sections. That keeps the plan smaller and makes it less likely to drift out of date.
+- you want a partner, family member or trusted person to be able to step in if needed;
+- an ongoing claim, repair, refund or other situation would be difficult to reconstruct from messages alone;
+- important recurring responsibilities mostly live in one person’s head or calendar; or
+- you simply want to reduce the number of things another person would have to guess.
 
-## Authority and access boundaries
+## What you get
 
-The plan points to the real source instead of replacing it. Writing a person's name here does **not** itself appoint them, give them legal authority, change ownership, or override a will, power of attorney, personal directive, court order, beneficiary designation, account mechanism, contract, or other governing arrangement.
+The Excel workbook includes:
 
-Do not store passwords, PINs, recovery codes, encryption keys, banking credentials, security answers, or other secrets in this plan. If a password manager, emergency-access feature, legacy contact, account delegation, recovery process, or other protected mechanism is used, record **where that arrangement is managed**, not the secret itself.
+- a **Start Here** page;
+- a map of the important areas in your household;
+- a place to record unfinished or ongoing situations;
+- recurring responsibilities that should not be missed;
+- pointers to important authority and access arrangements; and
+- a simple review and handoff test.
 
-Even without passwords, the completed plan can reveal sensitive household context. Keep and share it only where appropriate.
+The browser version contains the same core prompts in a format that is easy to read, copy or adapt.
 
-## Files
+## A good first 10 minutes
 
-- [`PLAN-TEMPLATE.md`](PLAN-TEMPLATE.md) - browser-readable, copyable handoff template.
-- [`information-plan.xlsx`](information-plan.xlsx) - formatted working workbook with a Start Here page, Handoff Map, Open Loops, Recurring Responsibilities, Authority & Access, and Review & Test.
-- [`CHANGELOG.md`](CHANGELOG.md) - version history and review boundaries.
-- [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) - current licensing terms.
+Do not try to document your entire life at once. Start with:
+
+1. two or three people someone should contact first;
+2. three to five household areas another person could not easily reconstruct;
+3. anything open or due in the next two weeks that should not be forgotten; and
+4. where any protected digital-access or recovery arrangement is managed.
+
+If something already has a clear home, point to it rather than copying it into several places.
+
+## Keep it safe
+
+Do **not** put passwords, PINs, recovery codes, encryption keys, banking credentials, security answers or other secrets in this plan.
+
+A completed plan can still reveal sensitive household information, so keep and share it only where appropriate.
+
+Writing somebody’s name in this workbook does not give them legal authority or change any formal arrangement. Wills, powers of attorney, personal directives, beneficiary designations, account mechanisms, contracts and other governing documents remain the things that actually control those decisions.
 
 ## How this differs from the Family Emergency Document Checklist
 
-The Family Emergency Document Checklist is about the **first minutes and hours**: contacts, medication information, insurance details, care arrangements, important-document locations, and other information that may be needed quickly.
+The [Family Emergency Document Checklist](../../checklists/family-emergency-document-checklist/) is designed for the **first minutes and hours** of an emergency: contacts, medications, insurance information, important-document locations, care plans and similar essentials.
 
-This plan begins where that one stops. It is for the **days and weeks after that**: understanding the household, preserving context, finding the records that actually govern, seeing unfinished situations, and keeping recurring responsibilities from being missed.
+This Information Plan is for the **days and weeks after that**. It focuses on understanding what is going on, what needs to continue, and where the real information can be found.
 
-## Scope
+## Files
 
-This is a continuity and organization template, not legal, estate-planning, medical, financial, tax, insurance, privacy, security, or emergency-response advice. Applicability depends on the household and jurisdiction. Formal authorities and qualified professionals remain the source for decisions they govern.
+- [`information-plan.xlsx`](information-plan.xlsx) — the formatted working workbook.
+- [`PLAN-TEMPLATE.md`](PLAN-TEMPLATE.md) — browser-readable and copyable version.
+- [`CHANGELOG.md`](CHANGELOG.md) — version history.
+- [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) — licence details.
 
-Useful preparedness context reviewed for this candidate:
+## Version and licence
 
-- https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/make-plan.html
-- https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/make-plan/emergency-plan-form.html
+This is an **early public version (v0.1.0)** and may improve as Eterna Clarity continues working on it.
 
-## Licensing status
-
-Version 0.1.0 is licensed by Eterna Clarity under the **Creative Commons Attribution 4.0 International license (CC BY 4.0)**. You may share and adapt the Eterna Clarity-authored material, including commercially, provided the attribution and other licence requirements are followed.
+Version 0.1.0 is licensed under the **Creative Commons Attribution 4.0 International licence (CC BY 4.0)**. You may share and adapt Eterna Clarity-authored material, including commercially, provided the licence and attribution requirements are followed.
 
 Recommended attribution: **If Something Happened to Me Information Plan by Eterna Clarity, licensed under CC BY 4.0.**
 
-See [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) for the current licensing terms. The resource remains a Public Review Candidate until Eterna Clarity separately authorizes its final public release.
+See [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) for the full licence notice.
+
+## Important limits
+
+This is an organization and preparedness resource, not legal, estate-planning, medical, financial, tax, insurance, privacy, security or emergency-response advice. Use the formal documents, authorities and qualified professionals that apply to your situation.
+
+Preparedness references used while developing this resource:
+
+- [Government of Canada — Make an emergency plan](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/make-plan.html)
+- [Government of Canada — Emergency plan form](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/make-plan/emergency-plan-form.html)
