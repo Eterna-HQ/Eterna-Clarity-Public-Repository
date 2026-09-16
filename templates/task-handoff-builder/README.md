@@ -17,17 +17,11 @@ Answer six practical questions:
 
 That is enough for many everyday handoffs. Add more only when the task actually needs it.
 
-## Use the browser tool
+## Start here
 
-The free browser tool turns those answers into a clean one-page handoff you can copy, print or save as a text file.
+[Open the blank handoff template](HANDOFF-TEMPLATE.md), or see the [fictional example](EXAMPLE.md).
 
-[Eterna Clarity Task Handoff Builder](https://eternaclarity.com/resources/task-handoff-builder/)
-
-The tool does not require an Eterna account. The handoff is built in your browser.
-
-## Use the template without the tool
-
-[Open the blank handoff template](HANDOFF-TEMPLATE.md) or see the [fictional example](EXAMPLE.md).
+A browser version is being qualified separately on the Eterna Clarity website. This repository package does not claim that application is live yet.
 
 ## A good handoff is specific
 
