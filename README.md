@@ -8,11 +8,11 @@ If you are here because you want to **use something**, start below. You do not n
 
 ### Task Handoff Builder
 
-A simple way to give someone what they need to take over one task without a meeting or a long explanation. Use the free browser tool, or copy the plain template.
+A simple way to give someone what they need to take over one task without a meeting or a long explanation. Use the reusable template and fictional example below.
 
 - [Open the resource folder](templates/task-handoff-builder/)
-- [Use the browser tool](https://eternaclarity.com/resources/task-handoff-builder/)
 - [Copy the plain handoff template](templates/task-handoff-builder/HANDOFF-TEMPLATE.md)
+- [See the fictional example](templates/task-handoff-builder/EXAMPLE.md)
 
 ### CSV Import Check
 
