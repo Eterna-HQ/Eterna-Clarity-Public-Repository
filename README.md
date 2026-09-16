@@ -14,6 +14,14 @@ A simple way to give someone what they need to take over one task without a meet
 - [Use the browser tool](https://eternaclarity.com/resources/task-handoff-builder/)
 - [Copy the plain handoff template](templates/task-handoff-builder/HANDOFF-TEMPLATE.md)
 
+### CSV Import Check
+
+A simple preflight for spotting CSV values and row problems that may be changed, misread or rejected when you import them into a spreadsheet, CRM, accounting tool or another app.
+
+- [Open the resource folder](tools/csv-import-checker/)
+- [Use the CSV import checklist](tools/csv-import-checker/IMPORT-CHECKLIST.md)
+- [See a fictional example](tools/csv-import-checker/EXAMPLE.md)
+
 ### Export Check: Can I Still Use My Data?
 
 A simple checklist for checking whether exported files, attachments, links and access still work before you cancel an app, trust a backup or move your information somewhere else.
