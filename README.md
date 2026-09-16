@@ -6,6 +6,14 @@ If you are here because you want to **use something**, start below. You do not n
 
 ## Start here
 
+### Task Handoff Builder
+
+A simple way to give someone what they need to take over one task without a meeting or a long explanation. Use the free browser tool, or copy the plain template.
+
+- [Open the resource folder](templates/task-handoff-builder/)
+- [Use the browser tool](https://eternaclarity.com/resources/task-handoff-builder/)
+- [Copy the plain handoff template](templates/task-handoff-builder/HANDOFF-TEMPLATE.md)
+
 ### Export Check: Can I Still Use My Data?
 
 A simple checklist for checking whether exported files, attachments, links and access still work before you cancel an app, trust a backup or move your information somewhere else.
