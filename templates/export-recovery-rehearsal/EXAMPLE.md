@@ -1,23 +1,25 @@
-# A fictional rehearsal that found a real gap in the example
+# Example: the ZIP downloaded, but the job still did not work
 
-This example is invented. It is not a customer story or a claim about any actual software product.
+This example is fictional.
 
-A community club is changing where it keeps its equipment notes. The test task is: **the replacement coordinator must find the packing instructions and photo, then prepare the next equipment handoff without opening the old workspace.** The selected export includes notes and tasks. The original workspace is retained.
+A community club is moving its equipment notes out of an old app. The replacement coordinator needs to find the packing instructions and photo, then prepare the equipment for the next handoff without opening the old app.
 
-The exported packing note opens in the new folder. That is a useful result, but the photo is only a link back to the old service. A task also points to the old note rather than the new copy. When the coordinator tests their own access, they can read the note but not the photo. The due-back filter and a recurring reminder have not yet been tested. A known archived checklist is outside the selected export.
+The export downloads successfully. The packing note opens in the new folder.
 
-| Check | Recorded outcome | Next action |
+That sounds good until the coordinator actually tries the task.
+
+| What they checked | What happened | What to do next |
 | --- | --- | --- |
-| Packing note | Pass: the reviewer opened and read the local file. | Retain the dated evidence of this sample. |
-| Attached photo | Fail: it cannot be opened without the original service. | Obtain the actual file through the authorised source, then retest. |
-| Task-to-note reference | Fail: it leads back to the old workspace. | Add the correct destination reference and test it. |
-| Earlier comments | Not applicable: only the current note is needed for this particular task; history is retained separately. | Do not describe history as recovered. |
-| Due-back filter | Not tested. | Check the destination view with a known due item. |
-| Reminder | Not tested. | Recreate and test an approved reminder using a harmless test case. |
-| Receiver access | Fail: the coordinator cannot open the photo. | Correct the appropriate permission, not share a password. |
-| Archived checklist | Fail: the known item is absent from the selected export. | Resolve the export scope. |
-| Next action | Fail: preparing the equipment stops at the missing photo. | Repeat the task after the information and access gaps are resolved. |
+| Packing note | **Works.** The exported note opens and is readable. | Keep the tested copy. |
+| Attached photo | **Doesn't work.** The “photo” is only a link back to the old service. | Export or save the actual photo, then check it again. |
+| Link from the task to the note | **Doesn't work.** It still opens the old app. | Replace the link with the new location. |
+| Older comments | **Doesn't apply.** The current note is all this task needs. | Keep the old history separately if it matters elsewhere. |
+| Due-back filter | **Not checked.** | Test the filter with an item you know is due. |
+| Reminder | **Not checked.** | Recreate a harmless reminder and make sure it appears. |
+| Replacement coordinator's access | **Doesn't work.** They can open the note but not the photo. | Fix the sharing or permission and try again. |
+| Archived checklist | **Doesn't work.** A known archived item is missing from this export. | Export the missing item or confirm where it will live. |
+| Real task | **Doesn't work.** The coordinator cannot finish because the photo is missing. | Fix the photo, links and access, then try the task again. |
 
-The conclusion is not "the migration passed because the ZIP downloaded." It is: **the selected note is readable, while this task still depends on missing files, references and access.** The example deliberately does not give an overall score or permission to delete the old workspace.
+The lesson is simple: **a successful download does not mean the information is ready to use.**
 
-The workbook's Example sheet records these same observations. The Checks sheet remains blank for your own work.
+This checklist is designed to help you find that kind of gap before you cancel the old service or delete the original copy.

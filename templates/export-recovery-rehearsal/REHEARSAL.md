@@ -1,98 +1,94 @@
-# Export and Recovery Rehearsal
+# Export Check: Can I Still Use My Data?
 
-Version 1.0.0 | Eterna Clarity
+Version 1.1.0 | Eterna Clarity
 
-Use one copy for one source, export scope and destination. This is a record of a test you perform, not an automated file checker. Keep the originals and use an authorised separate test location.
+Use this before you cancel an app, trust a backup, or move important information somewhere else.
 
-## 1. Choose the task
+Keep the original while you test.
 
-**What would you need to do if the original workspace were unavailable?**
+## 1. Pick one real thing you need to do
 
-Write one concrete action, not "recover everything":
+Do not start with “did everything export?” Start with one useful action.
 
-> _______________________________________________________________
+Examples:
 
-**Source app and version, if known:**
+- find a document and its attachment;
+- open a project note and follow the links inside it;
+- hand a recurring task to someone else;
+- find an older comment or version you still need;
+- use a saved filter or calculation;
+- receive a reminder you rely on.
 
-**Who controls the source and can authorise the export:**
+**What do you need to be able to do?**
 
-**Export date and selected scope:**
+_______________________________________________________________
 
-**Where the export is kept:**
+**App or service you exported from:**
 
-**Destination and version, if known:**
+**When you exported it and what you included:**
 
-**Who will need to use it:**
+**Where you are moving or storing it:**
 
-**Checked by and date:**
+**Who needs to be able to use it:**
 
-Do not put passwords, recovery codes, secret links or confidential record contents here. A description and an appropriately shared evidence location are enough.
+**Checked by / date:**
 
-## 2. Check what the task actually depends on
+## 2. Check the pieces that task depends on
 
-For each relevant area, pick a small representative sample. Add areas that matter to your situation. This list is a starting point, not a complete inventory of every application.
+Use the parts that matter to you. Add your own if something is missing.
 
-| Area | What to try |
+| What to check | A simple test |
 | --- | --- |
-| Readable content | Open a note, document or record you genuinely need. |
-| Attachments | Open the actual attached file without relying on a link back to the source app. |
-| Links and relationships | Follow a meaningful reference between records in the destination. |
-| Comments and history | Find an earlier version or discussion when the task needs it. |
-| Views and calculations | Recreate or check a filter, computed value or view you rely on. |
-| Reminders and automations | Check whether a needed alert or rule exists and works in the destination. |
-| Access and ownership | Have the intended person open the exact material with their own authorised access. |
-| Scope and exceptions | Check known private, shared, archived or excluded material against the selected scope. |
-| One real next action | Complete the chosen small task without reconstructing missing context from the original workspace. |
+| Files or records you can open | Open something you genuinely need and make sure it is readable. |
+| Attachments or images | Open the actual attachment, not just a thumbnail or a link back to the old app. |
+| Links between items | Follow an important link or reference and make sure it goes to the new copy. |
+| History or comments | Find an older version, comment or discussion if you still need it. |
+| Views, filters or calculations | Check a filter, view or calculation you depend on. |
+| Reminders or automatic actions | Check whether an important reminder or rule still exists and works. |
+| Other people's access | Have the person who needs it open the exact file or folder with their own account. |
+| Missing or skipped items | Check something you know is private, archived, shared or easy to miss. |
+| One real next action | Try to finish the task using only the new copy. |
 
-## 3. Record each result
+## 3. Record what happened
 
-Copy this block for each sample.
+Copy this block for each item you check.
 
-**Check area:**
+**What to check:**
 
-**Sample and scope:**
+**Example I checked:**
 
-**Expected behaviour:**
+**What should happen:**
 
-**What actually happened:**
+**What happened:**
 
-**How checked / evidence location:**
+**How I checked it:**
 
-**Result:** Not tested / Pass / Fail / Not applicable
+**Result:** Not checked / Works / Doesn't work / Doesn't apply
 
-**Next action, or the reason this check does not apply:**
+**What I'll do next, or why it doesn't apply:**
 
-**Who will act and when, if relevant:**
+## 4. Try the real task
 
-A result is an observation about that sample, date and scope. "The export downloaded" is not evidence that attachments, relationships, permissions or an entire workflow survived. A count alone does not establish that you exported the correct items.
+Now try the thing you chose at the start using only the exported or moved information.
 
-## 4. Run the next-action test
+**Could you finish it?**
 
-Try the small task using only the destination and the ordinary instructions available to its intended user. Do not coach around missing information without recording what was missing. If using a disconnected test would be unsafe or impractical, describe the limit rather than claiming an offline recovery.
+**What was missing, broken or confusing?**
 
-**Could the intended user complete the action?**
+**What have you not checked yet?**
 
-**What stopped them, required the old app, or needed extra explanation?**
+**What needs to be fixed before you rely on this copy?**
 
-**What was deliberately not tested?**
+## 5. Keep the answer narrow
 
-**What must be resolved before this copy is relied on?**
+One successful example does not prove that the whole export is complete.
 
-## 5. Decide the next test, not a blanket verdict
+The useful question is simply:
 
-Separate the outcomes:
+**Can I do the thing I actually need to do with this copy?**
 
-- **Exported:** the selected output was obtained.
-- **Readable:** the tested content can be opened and understood.
-- **Reconstructed:** the required structure or behaviour was recreated for the tested case.
-- **Usable for the chosen task:** the intended user completed the actual next action within the tested scope.
+If not, fix the gap while you still have the original.
 
-An outcome at one level does not automatically establish the next. The right result may be a clear gap, a narrower scope, another export, an access correction or a different destination. This worksheet does not authorise deleting originals or cancelling a service.
+Do not put passwords, recovery codes, secret links or sensitive record contents into this checklist.
 
-**Next test and responsible person:**
-
-**Review again when:** the export format, source/destination, important workflow, permissions or intended user changes.
-
-See [EXAMPLE.md](EXAMPLE.md) for a fictional failed rehearsal and [SOURCES.md](SOURCES.md) for limits and source references.
-
-Original worksheet content: CC BY 4.0. Attribution: Export and Recovery Rehearsal by Eterna Clarity. See [LICENSE-NOTICE.md](LICENSE-NOTICE.md).
+See [EXAMPLE.md](EXAMPLE.md) for a fictional example and [SOURCES.md](SOURCES.md) for limits and source notes.

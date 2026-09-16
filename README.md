@@ -6,13 +6,13 @@ If you are here because you want to **use something**, start below. You do not n
 
 ## Start here
 
-### Export and Recovery Rehearsal
+### Export Check: Can I Still Use My Data?
 
-A worksheet for testing what you can actually do with an export before relying on it. Record readable content, attachments, links, access and a real next action. A downloaded archive is not the same as a working replacement.
+A simple checklist for checking whether exported files, attachments, links and access still work before you cancel an app, trust a backup or move your information somewhere else.
 
 - [Open the resource folder](templates/export-recovery-rehearsal/)
 - [Download the Excel workbook](templates/export-recovery-rehearsal/rehearsal.xlsx)
-- [Read or copy the browser version](templates/export-recovery-rehearsal/REHEARSAL.md)
+- [Use the browser-readable checklist](templates/export-recovery-rehearsal/REHEARSAL.md)
 
 ### If Something Happened to Me Information Plan
 
