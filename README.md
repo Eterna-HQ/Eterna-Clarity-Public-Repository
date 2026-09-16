@@ -6,6 +6,14 @@ If you are here because you want to **use something**, start below. You do not n
 
 ## Start here
 
+### Export and Recovery Rehearsal
+
+A worksheet for testing what you can actually do with an export before relying on it. Record readable content, attachments, links, access and a real next action. A downloaded archive is not the same as a working replacement.
+
+- [Open the resource folder](templates/export-recovery-rehearsal/)
+- [Download the Excel workbook](templates/export-recovery-rehearsal/rehearsal.xlsx)
+- [Read or copy the browser version](templates/export-recovery-rehearsal/REHEARSAL.md)
+
 ### If Something Happened to Me Information Plan
 
 A simple workbook that helps someone you trust understand what needs attention if you are suddenly unavailable—who to contact, where important information lives, what is already in progress, and what cannot be missed.
