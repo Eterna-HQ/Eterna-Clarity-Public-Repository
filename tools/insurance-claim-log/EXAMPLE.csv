@@ -1,0 +1,4 @@
+Claim number,Insurer / contact,Adjuster / specialist,Date of loss,Entry date,Entry type,Details,Amount,Receipt or photo reference
+EXAMPLE-001,Fictional insurer,,2026-09-10,2026-09-10,Item or damage,Kitchen window broken; photographed before temporary repair.,,IMG_4102.jpg
+EXAMPLE-001,Fictional insurer,,2026-09-10,2026-09-11,Conversation,Spoke with adjuster about next inspection step.,,Email received same day
+EXAMPLE-001,Fictional insurer,,2026-09-10,2026-09-11,Expense,Temporary boarding materials.,86.40,Receipt 1042

@@ -1,38 +1,42 @@
 # Eterna Clarity Public Resources
 
-Free tools, templates and open resources from [Eterna Clarity](https://eternaclarity.com/).
+Useful tools, checks, templates and reference material from [Eterna Clarity](https://eternaclarity.com/resources/).
 
-If you are here because you want to **use something**, start below. You do not need an account or an email signup.
+You do not need an Eterna account or an email signup to use these resources. Start with the problem you are trying to solve.
 
-## Start here
+## Household tools and checks
 
-### Task Handoff Builder
+### Can Someone Find Your Important Household Information?
 
-A simple way to give someone what they need to take over one task without a meeting or a long explanation. Use the reusable template and fictional example below.
+A six-question check for finding household information gaps before an emergency or unexpected absence.
 
-- [Open the resource folder](templates/task-handoff-builder/)
-- [Copy the plain handoff template](templates/task-handoff-builder/HANDOFF-TEMPLATE.md)
-- [See the fictional example](templates/task-handoff-builder/EXAMPLE.md)
+- [Open the companion files](checklists/household-information-readiness-check/)
+- [Use the website check](https://eternaclarity.com/resources/household-information-check/)
 
-### CSV Import Check
+### Home Inventory Builder
 
-A simple preflight for spotting CSV values and row problems that may be changed, misread or rejected when you import them into a spreadsheet, CRM, accounting tool or another app.
+Record significant belongings room by room, including optional serial numbers, values and where photos or receipts are kept.
 
-- [Open the resource folder](tools/csv-import-checker/)
-- [Use the CSV import checklist](tools/csv-import-checker/IMPORT-CHECKLIST.md)
-- [See a fictional example](tools/csv-import-checker/EXAMPLE.md)
+- [Open the companion files](tools/home-inventory-builder/)
+- [Use the browser tool](https://eternaclarity.com/resources/home-inventory/)
 
-### Export Check: Can I Still Use My Data?
+### Insurance Claim Log
 
-A simple checklist for checking whether exported files, attachments, links and access still work before you cancel an app, trust a backup or move your information somewhere else.
+Keep claim contacts, conversations, expenses, damage notes and next steps in one timeline.
 
-- [Open the resource folder](templates/export-recovery-rehearsal/)
-- [Download the Excel workbook](templates/export-recovery-rehearsal/rehearsal.xlsx)
-- [Use the browser-readable checklist](templates/export-recovery-rehearsal/REHEARSAL.md)
+- [Open the companion files](tools/insurance-claim-log/)
+- [Use the browser tool](https://eternaclarity.com/resources/insurance-claim-log/)
 
-### If Something Happened to Me Information Plan
+### Account Recovery Check
 
-A simple workbook that helps someone you trust understand what needs attention if you are suddenly unavailable—who to contact, where important information lives, what is already in progress, and what cannot be missed.
+Check how you would get back into important accounts if your main phone or usual sign-in method was unavailable.
+
+- [Open the companion files](tools/account-recovery-check/)
+- [Use the browser check](https://eternaclarity.com/resources/account-recovery-check/)
+
+### If I'm Unavailable: Household Information Plan
+
+A workbook and browser-readable plan for helping someone you trust understand what needs attention if you cannot answer questions for a while.
 
 - [Open the resource folder](templates/if-something-happened-to-me-information-plan/)
 - [Download the Excel workbook](templates/if-something-happened-to-me-information-plan/information-plan.xlsx)
@@ -40,32 +44,79 @@ A simple workbook that helps someone you trust understand what needs attention i
 
 ### Family Emergency Document Checklist
 
-A practical checklist for making sure your household can quickly find the information you may need during an emergency, including contacts, medications, insurance, important documents, care plans and pet information.
+A practical checklist for making sure your household can quickly find emergency contacts, health information, insurance, care details and important documents.
 
 - [Open the resource folder](checklists/family-emergency-document-checklist/)
 - [Download the Excel workbook](checklists/family-emergency-document-checklist/checklist.xlsx)
 - [Read or print the browser version](checklists/family-emergency-document-checklist/CHECKLIST.md)
 
-## Open record taxonomies
+## Business and general tools
 
-We also publish structured record lists for people building their own filing, information-management or software systems. These are more technical than the household resources above.
+### Could Your Business Run for Two Days Without You?
 
-- [Open Household Records Taxonomy](taxonomies/open-household-records-taxonomy/)
-- [Open Small-Business Records Taxonomy](taxonomies/open-small-business-records-taxonomy/)
+A short continuity check for seeing what customer work, payments, systems, files or deadlines would continue, slow down or stop if a key person were unavailable.
 
-## What you will find inside a resource
+- [Open the companion files](checklists/two-day-business-check/)
+- [Use the website check](https://eternaclarity.com/resources/two-day-business-check/)
 
-Most resource folders include the thing you can actually use, a browser-readable version where useful, a short README explaining what it is, version history, and the licence that applies to that resource.
+### Task Handoff Builder
 
-GitHub is useful when you want the original files, source material or version history. For the broader company and our other work, visit [Eterna Clarity](https://eternaclarity.com/).
+Write a short handover with the task, timing, files, next step and who to ask for help.
+
+- [Open the resource folder](templates/task-handoff-builder/)
+- [Copy the plain handoff template](templates/task-handoff-builder/HANDOFF-TEMPLATE.md)
+- [Use the browser tool](https://eternaclarity.com/resources/task-handoff-builder/)
+
+### CSV Import Check
+
+Check a CSV for missing column names, uneven rows and values another app may change or misread.
+
+- [Open the resource folder](tools/csv-import-checker/)
+- [Use the CSV import checklist](tools/csv-import-checker/IMPORT-CHECKLIST.md)
+- [Use the browser checker](https://eternaclarity.com/resources/csv-import-check/)
+
+### Export Check: Can I Still Use My Data?
+
+Open the files, photos and links you need, then try one real task without the old app before you trust an export or backup.
+
+- [Open the resource folder](templates/export-recovery-rehearsal/)
+- [Use the current browser-readable checklist](templates/export-recovery-rehearsal/REHEARSAL.md)
+- [Previous v1.1 workbook - historical](templates/export-recovery-rehearsal/rehearsal-v1.1.0.xlsx)
+
+## Guides and references
+
+### How the Clarity Score Works
+
+A public explanation of what affects the current Clarity Score, why serious gaps matter and what the number cannot tell you.
+
+- [Open the guide files](guides/clarity-score-guide/)
+- [Read the website guide](https://eternaclarity.com/resources/clarity-score-guide/)
+
+### Household Records Filing Guide
+
+A human starting point for the formal **Open Household Records Taxonomy**.
+
+- [Start with the filing guide](taxonomies/open-household-records-taxonomy/START-HERE.md)
+- [Open the full technical package](taxonomies/open-household-records-taxonomy/)
+- [Use the website guide](https://eternaclarity.com/resources/household-records-guide/)
+
+### Small Business Records Filing Guide
+
+A human starting point for the formal **Open Small Business Records Taxonomy**.
+
+- [Start with the filing guide](taxonomies/open-small-business-records-taxonomy/START-HERE.md)
+- [Open the full technical package](taxonomies/open-small-business-records-taxonomy/)
+- [Use the website guide](https://eternaclarity.com/resources/business-records-guide/)
 
 ## Licensing
 
 Licensing is set per resource. Check the `LICENSE-NOTICE.md` in the resource you are using rather than assuming every item in this repository has identical terms.
 
-Several current Eterna Clarity-authored resources use **Creative Commons Attribution 4.0 International (CC BY 4.0)**, which allows sharing and adaptation, including commercial use, when the licence and attribution requirements are followed.
+Public visibility does not automatically grant permission to copy, modify or redistribute a resource. Several existing resources are licensed under CC BY 4.0; other resources currently have no open reuse licence.
+
+The canonical public resource registry is maintained with the Eterna Clarity website and links each resource to its companion package here.
 
 ---
 
 **Eterna Clarity**  
-[eternaclarity.com](https://eternaclarity.com/)
+[eternaclarity.com/resources](https://eternaclarity.com/resources/)

@@ -1,9 +1,11 @@
 # Changelog
 
-## 1.1.0 - 2026-09-16
+## 1.2.0 candidate - 2026-09-17
 
-Rewrote the resource around the plain-language question a person actually has: can I still use my exported data? Simplified the workbook labels, instructions and fictional example, removed internal testing language from the public experience, and kept the same safety limits.
+- Made the browser-readable checklist the current v1.2 artifact rather than shipping the known-bad v1.1 workbook as current.
+- Preserved the exact previous workbook as `rehearsal-v1.1.0.xlsx` for historical reference.
+- The locally corrected XLSX candidate is not published through this review branch because the available repository connector did not preserve its exact binary bytes; no corrupted binary is being substituted.
 
-## 1.0.0 - 2026-09-16
+## 1.1.0
 
-Initial release as Export and Recovery Rehearsal.
+Previous public workbook release. Preserved unchanged as `rehearsal-v1.1.0.xlsx` in this candidate branch.
