@@ -4,6 +4,10 @@ Useful tools, checks, templates and reference material from [Eterna Clarity](htt
 
 You do not need an Eterna account or an email signup to use these resources. Start with the problem you are trying to solve.
 
+## Review edition | 17 September 2026
+
+These updated files and individual browser pages are being reviewed before production promotion. Browser links below point to staging and may require access. They are not a claim that the new individual URLs have been released on the production website. The public [Resources library](https://eternaclarity.com/resources/) remains the normal public starting point.
+
 ## Household tools and checks
 
 ### Can Someone Find Your Important Household Information?
@@ -11,28 +15,28 @@ You do not need an Eterna account or an email signup to use these resources. Sta
 A six-question check for finding household information gaps before an emergency or unexpected absence.
 
 - [Open the companion files](checklists/household-information-readiness-check/)
-- [Use the website check](https://eternaclarity.com/resources/household-information-check/)
+- [Use the website check](https://staging.eterna-clarity-portal.pages.dev/resources/household-information-check/)
 
 ### Home Inventory Builder
 
 Record significant belongings room by room, including optional serial numbers, values and where photos or receipts are kept.
 
 - [Open the companion files](tools/home-inventory-builder/)
-- [Use the browser tool](https://eternaclarity.com/resources/home-inventory/)
+- [Use the browser tool](https://staging.eterna-clarity-portal.pages.dev/resources/home-inventory/)
 
 ### Insurance Claim Log
 
 Keep claim contacts, conversations, expenses, damage notes and next steps in one timeline.
 
 - [Open the companion files](tools/insurance-claim-log/)
-- [Use the browser tool](https://eternaclarity.com/resources/insurance-claim-log/)
+- [Use the browser tool](https://staging.eterna-clarity-portal.pages.dev/resources/insurance-claim-log/)
 
 ### Account Recovery Check
 
 Check how you would get back into important accounts if your main phone or usual sign-in method was unavailable.
 
 - [Open the companion files](tools/account-recovery-check/)
-- [Use the browser check](https://eternaclarity.com/resources/account-recovery-check/)
+- [Use the browser check](https://staging.eterna-clarity-portal.pages.dev/resources/account-recovery-check/)
 
 ### If I'm Unavailable: Household Information Plan
 
@@ -57,7 +61,7 @@ A practical checklist for making sure your household can quickly find emergency 
 A short continuity check for seeing what customer work, payments, systems, files or deadlines would continue, slow down or stop if a key person were unavailable.
 
 - [Open the companion files](checklists/two-day-business-check/)
-- [Use the website check](https://eternaclarity.com/resources/two-day-business-check/)
+- [Use the website check](https://staging.eterna-clarity-portal.pages.dev/resources/two-day-business-check/)
 
 ### Task Handoff Builder
 
@@ -65,7 +69,7 @@ Write a short handover with the task, timing, files, next step and who to ask fo
 
 - [Open the resource folder](templates/task-handoff-builder/)
 - [Copy the plain handoff template](templates/task-handoff-builder/HANDOFF-TEMPLATE.md)
-- [Use the browser tool](https://eternaclarity.com/resources/task-handoff-builder/)
+- [Use the browser tool](https://staging.eterna-clarity-portal.pages.dev/resources/task-handoff-builder/)
 
 ### CSV Import Check
 
@@ -73,7 +77,7 @@ Check a CSV for missing column names, uneven rows and values another app may cha
 
 - [Open the resource folder](tools/csv-import-checker/)
 - [Use the CSV import checklist](tools/csv-import-checker/IMPORT-CHECKLIST.md)
-- [Use the browser checker](https://eternaclarity.com/resources/csv-import-check/)
+- [Use the browser checker](https://staging.eterna-clarity-portal.pages.dev/resources/csv-import-check/)
 
 ### Export Check: Can I Still Use My Data?
 
@@ -81,7 +85,8 @@ Open the files, photos and links you need, then try one real task without the ol
 
 - [Open the resource folder](templates/export-recovery-rehearsal/)
 - [Use the current browser-readable checklist](templates/export-recovery-rehearsal/REHEARSAL.md)
-- [Previous v1.1 workbook - historical](templates/export-recovery-rehearsal/rehearsal-v1.1.0.xlsx)
+- [Download the corrected v1.2.0 workbook](templates/export-recovery-rehearsal/rehearsal.xlsx)
+- [Previous v1.1 workbook, known counting defect, historical only](templates/export-recovery-rehearsal/rehearsal-v1.1.0.xlsx)
 
 ## Guides and references
 
@@ -90,23 +95,25 @@ Open the files, photos and links you need, then try one real task without the ol
 A public explanation of what affects the current Clarity Score, why serious gaps matter and what the number cannot tell you.
 
 - [Open the guide files](guides/clarity-score-guide/)
-- [Read the website guide](https://eternaclarity.com/resources/clarity-score-guide/)
+- [Read the website guide](https://staging.eterna-clarity-portal.pages.dev/resources/clarity-score-guide/)
 
 ### Household Records Filing Guide
 
 A human starting point for the formal **Open Household Records Taxonomy**.
 
 - [Start with the filing guide](taxonomies/open-household-records-taxonomy/START-HERE.md)
+- [Download the human workbook](taxonomies/open-household-records-taxonomy/taxonomy.xlsx)
 - [Open the full technical package](taxonomies/open-household-records-taxonomy/)
-- [Use the website guide](https://eternaclarity.com/resources/household-records-guide/)
+- [Use the website guide](https://staging.eterna-clarity-portal.pages.dev/resources/household-records-guide/)
 
 ### Small Business Records Filing Guide
 
 A human starting point for the formal **Open Small Business Records Taxonomy**.
 
 - [Start with the filing guide](taxonomies/open-small-business-records-taxonomy/START-HERE.md)
+- [Download the human workbook](taxonomies/open-small-business-records-taxonomy/taxonomy.xlsx)
 - [Open the full technical package](taxonomies/open-small-business-records-taxonomy/)
-- [Use the website guide](https://eternaclarity.com/resources/business-records-guide/)
+- [Use the website guide](https://staging.eterna-clarity-portal.pages.dev/resources/business-records-guide/)
 
 ## Licensing
 

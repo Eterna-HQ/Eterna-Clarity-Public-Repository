@@ -69,7 +69,7 @@ If not, improve the path to the information before simply creating more copies.
 
 Do **not** use this checklist to collect passwords, PINs, recovery codes, full credentials or unnecessary account secrets.
 
-Sensitive originals should normally stay in their secure home. If you need quick access to information, a phone number, reference number, short summary or safe pointer may be more useful than carrying another copy of the original document.
+Sensitive originals should normally stay in their secure home. If you need quick access to information, a phone number, reference number, short summary or note of where to find it may be more useful than carrying another copy of the original document.
 
 ## How this differs from the Information Plan
 
@@ -79,16 +79,16 @@ The [If Something Happened to Me Information Plan](../../templates/if-something-
 
 ## Files
 
-- [`checklist.xlsx`](checklist.xlsx) — the formatted working workbook.
-- [`CHECKLIST.md`](CHECKLIST.md) — browser-readable and printable version.
-- [`CHANGELOG.md`](CHANGELOG.md) — version history.
-- [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) — licence details.
+- [`checklist.xlsx`](checklist.xlsx): the formatted working workbook.
+- [`CHECKLIST.md`](CHECKLIST.md): browser-readable and printable version.
+- [`CHANGELOG.md`](CHANGELOG.md): version history.
+- [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md): licence details.
 
 ## Version and licence
 
-This is an **early public version (v0.1.0)** and may improve as Eterna Clarity continues working on it.
+This is an **early public version (v0.1.1)** and may improve as Eterna Clarity continues working on it.
 
-Version 0.1.0 is licensed under the **Creative Commons Attribution 4.0 International licence (CC BY 4.0)**. You may share and adapt Eterna Clarity-authored material, including commercially, provided the licence and attribution requirements are followed.
+Version 0.1.1 is licensed under the **Creative Commons Attribution 4.0 International licence (CC BY 4.0)**. You may share and adapt Eterna Clarity-authored material, including commercially, provided the licence and attribution requirements are followed.
 
 Recommended attribution: **Family Emergency Document Checklist by Eterna Clarity, licensed under CC BY 4.0.**
 
@@ -100,7 +100,7 @@ This is a practical preparedness resource, not legal, medical, financial, insura
 
 Preparedness references used while developing this resource:
 
-- [Government of Canada — Make an emergency plan](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/make-plan.html)
-- [Government of Canada — Emergency kit](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html)
-- [Government of Canada — Emergency planning for people with disabilities](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-planning-resources/persons-disabilities.html)
-- [Government of Canada — Emergency planning for animals](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-planning-resources/animals.html)
+- [Government of Canada: Make an emergency plan](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/make-plan.html)
+- [Government of Canada: Emergency kit](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html)
+- [Government of Canada: Emergency planning for people with disabilities](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-planning-resources/persons-disabilities.html)
+- [Government of Canada: Emergency planning for animals](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-planning-resources/animals.html)

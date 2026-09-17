@@ -1,17 +1,11 @@
 # Checklists
 
-Practical Eterna checklists for bounded decisions, readiness reviews, handoffs, and repeatable operating tasks.
+Start with the job you need to do.
 
-A checklist should be concise, usable at the moment of need, and clear about what it does and does not establish.
+- [Household Information Readiness Check](household-information-readiness-check/): find information another person would struggle to locate if you were unavailable.
+- [Two-Day Business Check](two-day-business-check/): see what would continue, slow down or stop if a key person were away.
+- [Family Emergency Document Checklist](family-emergency-document-checklist/): gather the contacts and document locations that matter in the first hours of an emergency.
 
-## Current resources
+The first two checks identify gaps from your answers. They do not inspect your household or business. The emergency checklist helps you organize information, not decide what to do during an active emergency.
 
-### Family Emergency Document Checklist
-
-[`family-emergency-document-checklist/`](family-emergency-document-checklist/)
-
-A household emergency-information checklist built around three separate needs: knowing where the current or original record is, keeping the useful part accessible, and protecting sensitive originals instead of collecting everything into one emergency folder.
-
-The resource is deliberately bounded to the first minutes and hours of an emergency rather than broader household continuity over days or weeks.
-
-**Current status:** `0.1.0` public review candidate. Includes a browser-readable printable checklist and a formatted human workbook. Final reuse licensing and final publication authorization remain unresolved.
+See each folder for its actual files, maintenance version and licence. The Family Emergency checklist retains its existing CC BY 4.0 terms. The other two packages do not yet have an open reuse licence.

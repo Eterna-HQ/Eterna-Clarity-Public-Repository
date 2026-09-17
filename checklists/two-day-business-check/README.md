@@ -2,7 +2,7 @@
 
 Imagine the person who normally keeps things moving is unexpectedly unreachable for two working days. This check helps you see what would continue, slow down or stop.
 
-- [Use the website check](https://eternaclarity.com/resources/two-day-business-check/)
+- [Use the website check](https://staging.eterna-clarity-portal.pages.dev/resources/two-day-business-check/)
 - [Use the plain question sheet](CHECK.md)
 - [See a fictional example](EXAMPLE.md)
 - [Review the sources](SOURCES.md)

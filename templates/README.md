@@ -1,15 +1,9 @@
 # Templates
 
-Reusable Eterna templates intended to help people put a clear system or workflow into practice quickly.
+Practical files for handing over one task, leaving household information for someone you trust, and testing an export before you rely on it.
 
-Templates published here must be understandable without private Eterna context and must avoid embedded secrets, customer data, or internal-only assumptions.
+- [Task Handoff Builder](task-handoff-builder/): a short handover with the task, timing, information and person to ask for help.
+- [If I'm Unavailable: Household Information Plan](if-something-happened-to-me-information-plan/): a workbook and copyable plan for household responsibilities over days or weeks.
+- [Export Check: Can I Still Use My Data?](export-recovery-rehearsal/): a workbook and checklist for trying one real task with exported information.
 
-## Current resources
-
-### If Something Happened to Me Information Plan
-
-[`if-something-happened-to-me-information-plan/`](if-something-happened-to-me-information-plan/)
-
-A household continuity handoff template for preserving the context that another trusted person may need if the person who normally knows how everything works is unavailable for days or weeks. It maps people, real sources of information, open loops, recurring responsibilities, and protected-access arrangements without becoming an estate plan, credential vault, or duplicate archive.
-
-**Current status:** `0.1.0` public review candidate. Includes a browser-readable editable template and a formatted human workbook. Final reuse licensing and final publication authorization remain unresolved.
+These maintenance editions are on the Resources review branch. See each resource's version and licence notice. The existing CC BY 4.0 terms for these three content packages are unchanged; they do not cover Eterna branding or separately licensed software.

@@ -1,6 +1,6 @@
 # Task Handoff Builder
 
-**Version 1.0.0.** A simple way to give someone what they need to take over one task without a meeting or a long explanation.
+**Version 1.0.1.** A simple way to give someone what they need to take over one task without a meeting or a long explanation.
 
 Use it for a household job, a recurring responsibility, a project task, a client follow-up, an appointment, an order, a volunteer role, or anything else that another person may need to pick up.
 
@@ -52,3 +52,7 @@ Do not put passwords, recovery codes, private keys or other secrets in a handoff
 ## Reuse
 
 The original template, example and documentation in this folder are licensed under [CC BY 4.0](LICENSE-NOTICE.md).
+
+## Browser and saved output
+
+The browser asks for the task, timing, person taking over, information location, next step, reason to pause, and optional contact. Copy or download the text before leaving or refreshing the page. The browser example uses fictional Morgan and Sam; the separate example in this folder is also fictional.

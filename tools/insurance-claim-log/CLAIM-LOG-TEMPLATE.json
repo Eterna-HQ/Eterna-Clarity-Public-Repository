@@ -1,0 +1,11 @@
+{
+  "schema": "eterna.insurance-claim-log.v1",
+  "currency": "CAD",
+  "meta": {
+    "claim": "",
+    "insurer": "",
+    "adjuster": "",
+    "lossDate": ""
+  },
+  "rows": []
+}

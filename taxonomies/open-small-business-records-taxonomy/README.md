@@ -1,5 +1,8 @@
 # Open Small Business Records Taxonomy
 
+Start with the [plain filing guide](START-HERE.md) or [human workbook](taxonomy.xlsx). Guide/workbook edition **0.1.1**, reviewed 17 September 2026. The machine-readable category data remains **0.1.0** with unchanged IDs and meanings.
+
+
 **Version:** 0.1.0  
 **Status:** Public review candidate  
 **Namespace:** `osbrt`  
@@ -53,49 +56,49 @@ The rule is not “store only one copy under all circumstances.” Accounting, p
 
 ## The fifteen record families
 
-### `osbrt.governance_ownership` — Governance & ownership
+### `osbrt.governance_ownership`: Governance & ownership
 Entity formation, ownership, formal authority, governance structure, resolutions, and major company decisions.
 
-### `osbrt.finance_accounting_tax` — Finance, accounting & tax
+### `osbrt.finance_accounting_tax`: Finance, accounting & tax
 Accounting books, sales and purchase invoices, receipts, banking, receivables and payables, expenses, reconciliations, financial reports, tax, and financial-remittance records.
 
-### `osbrt.customers_revenue` — Customers & revenue
+### `osbrt.customers_revenue`: Customers & revenue
 Leads, proposals, quotes, customer agreements, pricing, commercial correspondence, account records, sales commitments, and recurring customer relationships.
 
-### `osbrt.vendors_procurement` — Vendors & procurement
+### `osbrt.vendors_procurement`: Vendors & procurement
 Supplier profiles, quotes, purchase orders, supplier agreements, price lists, procurement comparisons, credits or returns, receiving exceptions, and vendor correspondence.
 
-### `osbrt.people_workforce` — People & workforce
+### `osbrt.people_workforce`: People & workforce
 Employment and contractor agreements, worker profiles, roles, timesheets, training, performance, benefit administration, leave, and other workforce records.
 
-### `osbrt.projects_jobs_delivery` — Projects, jobs & delivery
+### `osbrt.projects_jobs_delivery`: Projects, jobs & delivery
 Work orders, scopes, statements of work, plans, changes, approvals, field records, delivery evidence, completion records, and handoffs for specific work.
 
-### `osbrt.operations_procedures` — Operations & procedures
+### `osbrt.operations_procedures`: Operations & procedures
 Recurring operating procedures, checklists, schedules, instructions, quality methods, process controls, and playbooks. Notes and checklists about a specific customer, project, safety obligation, system, or strategic decision belong with that subject instead.
 
-### `osbrt.assets_facilities` — Assets & facilities
+### `osbrt.assets_facilities`: Assets & facilities
 Equipment, vehicles, tools, premises, asset registers, manuals, warranties, maintenance, inspections, assignments, repairs, and facility records.
 
-### `osbrt.inventory_supplies` — Inventory & supplies
+### `osbrt.inventory_supplies`: Inventory & supplies
 Item masters, stock counts, receiving, reorder records, usage, movements, adjustments, locations, and recurring material-control records.
 
-### `osbrt.insurance_risk_incidents` — Insurance, risk & incidents
+### `osbrt.insurance_risk_incidents`: Insurance, risk & incidents
 Policies, certificates, claims, incidents, damage evidence, risk assessments, loss records, and risk-management material.
 
-### `osbrt.compliance_licences_safety` — Compliance, licences & safety
+### `osbrt.compliance_licences_safety`: Compliance, licences & safety
 Licences, permits, required certifications, regulated inspections, safety-program evidence, compliance filings, corrective actions, and regulatory correspondence.
 
-### `osbrt.technology_access_data` — Technology, access & data
+### `osbrt.technology_access_data`: Technology, access & data
 Systems, software subscriptions, account ownership, access procedures, configuration, backup and recovery, data handling, security controls, and technology-service records.
 
-### `osbrt.marketing_brand` — Marketing & brand
+### `osbrt.marketing_brand`: Marketing & brand
 Brand standards and assets, campaigns, advertising, photography, content, website or social material, media kits, and publication assets.
 
-### `osbrt.strategy_planning` — Strategy & planning
+### `osbrt.strategy_planning`: Strategy & planning
 Business plans, forecasts used for planning, priorities, research, roadmaps, strategic decisions, scenario work, and major initiative direction.
 
-### `osbrt.knowledge_continuity` — Knowledge & continuity
+### `osbrt.knowledge_continuity`: Knowledge & continuity
 Lessons learned, durable decision context, reference material, handoff notes, process rationale, and information whose primary purpose is preserving what the business knows.
 
 ## Recommended record metadata
@@ -128,7 +131,7 @@ OSBRT is a general small-business classification reference. It is not a Canada R
 
 The core taxonomy deliberately stays separate from jurisdiction- and industry-specific compliance overlays. A regulated business may need additional classifications, required systems of record, retention schedules, or evidence that this general reference does not define.
 
-Current Canada Revenue Agency guidance confirms that business records can include financial statements, sales invoices, purchase receipts, contracts, work orders, delivery slips, banking records, emails, and supporting correspondence. The CRA determines actual tax record duties and retention requirements; OSBRT does not infer them. See:
+The linked Canada Revenue Agency guidance describes that business records can include financial statements, sales invoices, purchase receipts, contracts, work orders, delivery slips, banking records, emails, and supporting correspondence. The CRA determines actual tax record duties and retention requirements; OSBRT does not infer them. See:
 
 - https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/keeping-records.html
 - https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/keeping-records/what-records-who-keep-them.html
@@ -145,9 +148,9 @@ See [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) and the repository-wide [`GOVERNANC
 
 ## Files
 
-- [`taxonomy.xlsx`](taxonomy.xlsx) — formatted human-facing workbook.
-- [`taxonomy.json`](taxonomy.json) — canonical machine-readable category data and implementation guidance.
-- [`taxonomy.csv`](taxonomy.csv) — flat portable category export.
-- [`taxonomy.schema.json`](taxonomy.schema.json) — JSON Schema for the machine-readable structure.
-- [`CHANGELOG.md`](CHANGELOG.md) — version history and review corrections.
-- [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) — current licensing boundary.
+- [`taxonomy.xlsx`](taxonomy.xlsx): formatted human-facing workbook.
+- [`taxonomy.json`](taxonomy.json): canonical machine-readable category data and implementation guidance.
+- [`taxonomy.csv`](taxonomy.csv): flat portable category export.
+- [`taxonomy.schema.json`](taxonomy.schema.json): JSON Schema for the machine-readable structure.
+- [`CHANGELOG.md`](CHANGELOG.md): version history and review corrections.
+- [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md): current licensing boundary.

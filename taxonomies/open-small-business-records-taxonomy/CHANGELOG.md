@@ -1,8 +1,15 @@
 # Changelog
 
+## Guide/workbook 0.1.1 maintenance candidate | 17 September 2026
+
+- Put the human filing instructions first and simplify wording in the workbook.
+- Preserve category identifiers, meanings, JSON, CSV and schema at version 0.1.0.
+- Preserve technical implementation notes for readers who need them.
+- The existing no-reuse-licence status is unchanged.
+
 All material changes to the Open Small Business Records Taxonomy should be recorded here.
 
-## 0.1.0 — 2026-08-25
+## 0.1.0: 2026-08-25
 
 **Status:** Public review candidate
 
@@ -33,7 +40,7 @@ The asset implementation tightened several boundaries from the earlier editorial
 - technology-service records can be owned by Technology, access & data when their primary operational purpose is the system or service;
 - mandatory external systems of record are explicitly preserved rather than displaced by the taxonomy.
 
-### Human-value paired review corrections — 2026-08-25
+### Human-value paired review corrections: 2026-08-25
 
 A final paired review of the Brief and resource tightened the model for actual small-business use rather than treating it as a generic enterprise taxonomy:
 

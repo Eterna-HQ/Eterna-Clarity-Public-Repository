@@ -61,7 +61,7 @@ Do **not** put passwords, PINs, recovery codes, encryption keys, banking credent
 
 A completed plan can still reveal sensitive household information, so keep and share it only where appropriate.
 
-Writing somebody’s name in this workbook does not give them legal authority or change any formal arrangement. Wills, powers of attorney, personal directives, beneficiary designations, account mechanisms, contracts and other governing documents remain the things that actually control those decisions.
+Writing somebody’s name in this workbook does not give them legal authority or change any formal arrangement. Wills, powers of attorney, personal directives, beneficiary designations, account mechanisms, contracts and other formal documents remain the things that actually control those decisions.
 
 ## How this differs from the Family Emergency Document Checklist
 
@@ -71,16 +71,16 @@ This Information Plan is for the **days and weeks after that**. It focuses on un
 
 ## Files
 
-- [`information-plan.xlsx`](information-plan.xlsx) — the formatted working workbook.
-- [`PLAN-TEMPLATE.md`](PLAN-TEMPLATE.md) — browser-readable and copyable version.
-- [`CHANGELOG.md`](CHANGELOG.md) — version history.
-- [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) — licence details.
+- [`information-plan.xlsx`](information-plan.xlsx): the formatted working workbook.
+- [`PLAN-TEMPLATE.md`](PLAN-TEMPLATE.md): browser-readable and copyable version.
+- [`CHANGELOG.md`](CHANGELOG.md): version history.
+- [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md): licence details.
 
 ## Version and licence
 
-This is an **early public version (v0.1.0)** and may improve as Eterna Clarity continues working on it.
+This is an **early public version (v0.1.1)** and may improve as Eterna Clarity continues working on it.
 
-Version 0.1.0 is licensed under the **Creative Commons Attribution 4.0 International licence (CC BY 4.0)**. You may share and adapt Eterna Clarity-authored material, including commercially, provided the licence and attribution requirements are followed.
+Version 0.1.1 is licensed under the **Creative Commons Attribution 4.0 International licence (CC BY 4.0)**. You may share and adapt Eterna Clarity-authored material, including commercially, provided the licence and attribution requirements are followed.
 
 Recommended attribution: **If Something Happened to Me Information Plan by Eterna Clarity, licensed under CC BY 4.0.**
 
@@ -92,5 +92,5 @@ This is an organization and preparedness resource, not legal, estate-planning, m
 
 Preparedness references used while developing this resource:
 
-- [Government of Canada — Make an emergency plan](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/make-plan.html)
-- [Government of Canada — Emergency plan form](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/make-plan/emergency-plan-form.html)
+- [Government of Canada: Make an emergency plan](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/make-plan.html)
+- [Government of Canada: Emergency plan form](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/make-plan/emergency-plan-form.html)

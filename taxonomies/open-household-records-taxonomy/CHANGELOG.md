@@ -1,8 +1,15 @@
 # Changelog
 
+## Guide/workbook 0.1.1 maintenance candidate | 17 September 2026
+
+- Put the human filing instructions first and simplify wording in the workbook.
+- Preserve category identifiers, meanings, JSON, CSV and schema at version 0.1.0.
+- Preserve technical implementation notes for readers who need them.
+- The existing no-reuse-licence status is unchanged.
+
 All material changes to the Open Household Records Taxonomy should be recorded here.
 
-## 0.1.0 — 2026-08-25
+## 0.1.0: 2026-08-25
 
 **Status:** Public review candidate
 
@@ -20,11 +27,11 @@ Initial public candidate containing:
 - JSON and flat CSV representations for portability and implementation;
 - JSON Schema for the machine-readable structure.
 
-### Human spreadsheet correction — 2026-08-25
+### Human spreadsheet correction: 2026-08-25
 
 The original CSV was structurally valid but too technical to serve as the designed human spreadsheet. Because CSV cannot preserve presentation formatting, a dedicated `taxonomy.xlsx` workbook was added. The workbook puts human-readable concepts first, wraps long text, sets practical column widths and row heights, freezes and filters the header, and keeps technical IDs/machine fields in the machine-readable files rather than crowding the human workbook. The CSV remains the plain portable export rather than pretending to be the formatted reading experience.
 
-### Final paired validation corrections — 2026-08-25
+### Final paired validation corrections: 2026-08-25
 
 A final cross-check of the Brief, human workbook and machine-readable package found and corrected several semantic boundaries before 1.0.0:
 

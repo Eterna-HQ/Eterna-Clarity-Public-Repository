@@ -1,0 +1,23 @@
+{
+  "schema": "eterna.account-recovery-check.v1",
+  "rows": [
+    {
+      "account": "Primary email",
+      "purpose": "Email and recovery for other accounts",
+      "withoutPhone": "no",
+      "current": "yes",
+      "backup": "yes",
+      "depends": "Mobile carrier",
+      "checked": "2026-09-10"
+    },
+    {
+      "account": "Cloud storage",
+      "purpose": "Important files",
+      "withoutPhone": "yes",
+      "current": "no",
+      "backup": "yes",
+      "depends": "Primary email",
+      "checked": "2026-09-10"
+    }
+  ]
+}

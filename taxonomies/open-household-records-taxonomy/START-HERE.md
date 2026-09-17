@@ -20,6 +20,9 @@ If a record could fit in several places, ask: **If this disappeared, which part 
 
 - [Download the human workbook](taxonomy.xlsx)
 - [Read the complete technical reference](README.md)
-- [Use the website guide](https://eternaclarity.com/resources/household-records-guide/)
+- [Use the website guide](https://staging.eterna-clarity-portal.pages.dev/resources/household-records-guide/)
 
 The taxonomy is a filing reference, not a list of documents every household must have and not a legal retention schedule.
+
+
+[Open the human workbook](taxonomy.xlsx). Guide/workbook edition 0.1.1; category data remains 0.1.0. The workbook starts with the human guide and keeps the technical reference available separately. No open reuse licence has been assigned; see [LICENSE-NOTICE.md](LICENSE-NOTICE.md).

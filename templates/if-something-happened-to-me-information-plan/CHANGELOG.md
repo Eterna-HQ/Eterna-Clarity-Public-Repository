@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 maintenance candidate | 17 September 2026
+
+- Align workbook, readable template and public instructions using ordinary task language.
+- Preserve the original information prompts, source references and existing CC BY 4.0 content terms.
+- Validate the workbook package and inspect every worksheet. No new licence or production release is implied.
+- Rename the three internal-sounding worksheet tabs to Household Guide, Things in Progress, and Access & Documents.
+
 ## 0.1.0 - 2026-08-25
 
 **Status:** Public review candidate

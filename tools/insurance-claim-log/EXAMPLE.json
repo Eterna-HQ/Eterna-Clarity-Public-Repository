@@ -1,0 +1,33 @@
+{
+  "schema": "eterna.insurance-claim-log.v1",
+  "currency": "CAD",
+  "meta": {
+    "claim": "DEMO-001",
+    "insurer": "Example insurer, claims desk",
+    "adjuster": "Fictional adjuster",
+    "lossDate": "2026-09-10"
+  },
+  "rows": [
+    {
+      "date": "2026-09-10",
+      "type": "Item or damage",
+      "details": "Kitchen window broken; photographed before temporary repair.",
+      "amount": "",
+      "evidence": "IMG_4102.jpg"
+    },
+    {
+      "date": "2026-09-11",
+      "type": "Conversation",
+      "details": "Spoke with adjuster about the next inspection step.",
+      "amount": "",
+      "evidence": "Email received that day"
+    },
+    {
+      "date": "2026-09-11",
+      "type": "Expense",
+      "details": "Temporary boarding materials.",
+      "amount": "86.40",
+      "evidence": "Receipt 1042"
+    }
+  ]
+}
