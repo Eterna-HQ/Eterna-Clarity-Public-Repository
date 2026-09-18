@@ -1,47 +1,21 @@
 # Export Check: Can I Still Use My Data?
 
-**Version 1.1.0.** A simple checklist for checking whether an export is actually useful before you cancel an app, trust a backup, or move your information somewhere else.
+**Version 1.2.0 maintenance candidate.** Open the files, photos and links you need, then try one real task without the old app before you rely on an export or backup.
 
-Downloading a ZIP file is only the first step. Important attachments can be missing, links can still point back to the old app, reminders may not come across, and another person may not have the access you expected.
+[Download the workbook](rehearsal-v1.2.0.xlsx) | [Read the checklist](REHEARSAL.md) | [See the fictional example](EXAMPLE.md)
 
-This checklist helps you catch those problems while you still have the original.
+## Use it
 
-## Use it when
+Pick one real thing you need to do. Keep the original account or files available while you check the files, attachments, links, history, filters, reminders and access that task needs.
 
-- you are leaving an app or service;
-- you downloaded a backup and want to know whether you can actually use it;
-- you are moving notes, files, tasks or records to another tool;
-- someone else needs to take over information you normally manage.
+For each check, select **Works**, **Doesn't work**, **Not checked** or **Doesn't apply**. Record what happened and any useful next step. One successful example does not prove that the whole export is complete.
 
-## Start here
+The workbook begins with nine named checks. Unused spare rows do not count just because their result says Not checked. The summary counts the result you selected; reminders about missing notes are separate from that result. Add your own check in a spare row when needed.
 
-[Download the workbook](rehearsal.xlsx), or [use the browser-readable checklist](REHEARSAL.md).
+Do not put passwords, recovery codes, secret links or sensitive record contents in this checklist. Save your completed copy privately.
 
-Pick **one real thing you need to be able to do** with the exported information. Then check the pieces that task depends on: files, attachments, links, history, filters, reminders, access and anything you know might have been skipped.
+## Version history and reuse
 
-For each item, mark:
+The prior [v1.1.0 workbook](rehearsal-v1.1.0.xlsx) is retained for history. Its spare-row counting is known to be wrong; use v1.2.0 for new work. This review candidate is not a claim of a production release.
 
-- **Works**
-- **Doesn't work**
-- **Not checked**
-- **Doesn't apply**
-
-Write down how you checked it and what you need to do next.
-
-The [fictional example](EXAMPLE.md) shows a club moving its equipment notes and discovering that a photo, a link and another person's access still depend on the old app.
-
-## Important
-
-Keep the original account or files while you test. A successful download does not prove that everything you need came across.
-
-Do not put passwords, recovery codes, secret links or copies of sensitive records into the checklist. A completed checklist is not proof that an export is complete, secure, legally sufficient or safe to delete.
-
-## Privacy
-
-The workbook works locally. It has no macros, no automatic uploads and no Eterna account requirement. Anything you type into the file stays in the file unless you choose to share it.
-
-## Reuse
-
-The original checklist text, workbook content and fictional example are licensed under [CC BY 4.0](LICENSE-NOTICE.md). See [SOURCES.md](SOURCES.md) for the specific examples behind the checklist and its limits.
-
-[Eterna Clarity Resources](https://eternaclarity.com/resources/)
+The workbook, checklist and fictional example retain the package's existing [CC BY 4.0 terms](LICENSE-NOTICE.md). See [CHANGELOG.md](CHANGELOG.md) for the corrections and [SOURCES.md](SOURCES.md) for background and limits.

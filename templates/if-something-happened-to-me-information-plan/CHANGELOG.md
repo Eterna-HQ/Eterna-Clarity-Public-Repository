@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 maintenance candidate | 17 September 2026
+
+- Simplified the workbook and template language and renamed workbook tabs around the household tasks.
+- Added a clearly fictional worked example.
+- Kept the original document, access and privacy limits and existing CC BY 4.0 terms.
+
 ## 0.1.0 - 2026-08-25
 
 **Status:** Public review candidate
