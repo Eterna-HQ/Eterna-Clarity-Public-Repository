@@ -25,7 +25,7 @@ A one-person company can still use these categories. The categories describe the
 
 - [Download the filing workbook](taxonomy.xlsx)
 - [Read the complete technical reference](README.md)
-- [Use the website guide](https://staging.eterna-clarity-portal.pages.dev/resources/business-records-guide/)
+- [Use the website guide](https://eternaclarity.com/resources/business-records-guide/)
 
 This is a classification reference. It does not replace tax, payroll, corporate, privacy, safety, professional, contractual, licensing or industry-specific requirements.
 
