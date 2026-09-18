@@ -2,13 +2,15 @@
 
 If you just want a sensible place for business records, start here. The formal technical model behind this guide is the **Open Small Business Records Taxonomy (OSBRT)**.
 
-Human guide/workbook v0.1.1 maintenance candidate. The technical taxonomy remains v0.1.0.
+Human guide/workbook v0.1.1. The technical taxonomy remains v0.1.0.
 
 ## The simple rule
 
 Give each record **one main category based on the business responsibility that needs the information to stay correct**. Keep other connections as notes or references instead of making competing primary copies.
 
 One main category does not mean one copy. Keep backups and any copies required by your work or official requirements; avoid maintaining conflicting main versions.
+
+You do **not** need to create or use all fifteen categories. Start with the categories that match the records your business actually has, and add another only when it becomes useful.
 
 Examples:
 
@@ -29,4 +31,4 @@ A one-person company can still use these categories. The categories describe the
 
 This is a classification reference. It does not replace tax, payroll, corporate, privacy, safety, professional, contractual, licensing or industry-specific requirements.
 
-No open reuse licence has been assigned to this public draft. See [LICENSE-NOTICE.md](LICENSE-NOTICE.md).
+No open reuse licence has been assigned to this taxonomy. See [LICENSE-NOTICE.md](LICENSE-NOTICE.md).

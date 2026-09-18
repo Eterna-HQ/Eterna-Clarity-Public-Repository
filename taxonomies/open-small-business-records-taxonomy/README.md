@@ -3,7 +3,7 @@
 For the everyday filing task, start with [the plain-language filing guide](START-HERE.md). The human guide/workbook maintenance revision is v0.1.1; the technical taxonomy identifiers, CSV, JSON and schema remain v0.1.0.
 
 **Version:** 0.1.0  
-**Status:** Public review candidate  
+**Status:** Released  
 **Namespace:** `osbrt`  
 **Maintainer:** Eterna Clarity
 
@@ -122,7 +122,7 @@ The taxonomy does not require a particular software system. For implementations,
 
 [`taxonomy.csv`](taxonomy.csv) is the flat portable export for data interchange. CSV cannot retain spreadsheet presentation such as widths, wrapping, frozen panes, worksheet structure, fonts, or fills, so it is not the designed human spreadsheet.
 
-[`taxonomy.json`](taxonomy.json) is the canonical machine-readable candidate. [`taxonomy.schema.json`](taxonomy.schema.json) documents its structure.
+[`taxonomy.json`](taxonomy.json) is the canonical machine-readable release. [`taxonomy.schema.json`](taxonomy.schema.json) documents its structure.
 
 ## Scope and authority boundaries
 
@@ -137,11 +137,11 @@ Current Canada Revenue Agency guidance confirms that business records can includ
 
 ## Versioning
 
-`0.1.0` is the first public review candidate. Stable `osbrt.*` category IDs are intended to survive normal editorial refinement. Breaking changes to category identity or meaning should be versioned explicitly and recorded in the changelog rather than silently reusing an old identifier for a different concept.
+`0.1.0` is the first public release. Stable `osbrt.*` category IDs are intended to survive normal editorial refinement. Breaking changes to category identity or meaning should be versioned explicitly and recorded in the changelog rather than silently reusing an old identifier for a different concept.
 
 ## Licensing status
 
-No reuse license has been assigned to this public review candidate yet. Public visibility should not be interpreted as a blanket permission to copy, modify, redistribute, or incorporate the taxonomy into another product or dataset. Licensing must be resolved deliberately before a final open release.
+No reuse license has been assigned to this release. Public visibility should not be interpreted as blanket permission to copy, modify, redistribute, or incorporate the taxonomy into another product or dataset. Any future open-licence decision must be made explicitly.
 
 See [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) and the repository-wide [`GOVERNANCE.md`](../../GOVERNANCE.md).
 
