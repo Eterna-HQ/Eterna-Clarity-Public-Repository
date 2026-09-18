@@ -27,7 +27,7 @@ Listing someone here does **not** give them legal permission to act for you. Poi
 - add the two or three people someone should contact first;
 - fill the three to five household areas another person could not easily figure out;
 - list anything already in progress or due in the next two weeks that should not be missed; and
-- note where any protected account-recovery arrangement is managed.
+- note where any account-recovery arrangement is managed.
 
 If something already has a clear home, point to it instead of copying it here.
 
@@ -61,7 +61,7 @@ Examples: an insurance claim waiting on an estimate; a repair that did not solve
 
 Only include things somebody may genuinely need to keep from being missed while you are unavailable.
 
-| Responsibility | How often / next due | Who or provider matters | Where the real information lives | What another person needs to know |
+| Responsibility | How often / next due | Person or service to contact | Where the real information lives | What another person needs to know |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
 |  |  |  |  |  |
@@ -99,7 +99,7 @@ Imagine you cannot answer follow-up questions.
 - [ ] They can see current situations that should not be forgotten.
 - [ ] They can identify recurring responsibilities that cannot be missed.
 - [ ] They know where protected access or recovery arrangements are managed without needing secrets written here.
-- [ ] They can tell which named people are contacts and which authority comes from a formal document or account arrangement.
+- [ ] They can tell which named people are contacts and which permissions come from a formal document or account arrangement.
 
 If the test fails, improve the path to the information. Do not solve every gap by copying more sensitive information into this plan.
 

@@ -2,22 +2,22 @@
   "schema": "eterna.account-recovery-check.v1",
   "rows": [
     {
-      "account": "Primary email",
-      "purpose": "Email and recovery for other accounts",
+      "account": "Fictional primary email",
+      "purpose": "Example account used for other recovery messages",
       "withoutPhone": "no",
       "current": "yes",
-      "backup": "yes",
-      "depends": "Mobile carrier",
-      "checked": "2026-09-10"
+      "backup": "unsure",
+      "depends": "Example mobile service",
+      "checked": "2026-09-17"
     },
     {
-      "account": "Cloud storage",
-      "purpose": "Important files",
+      "account": "Fictional cloud storage",
+      "purpose": "Example file storage",
       "withoutPhone": "yes",
       "current": "no",
       "backup": "yes",
-      "depends": "Primary email",
-      "checked": "2026-09-10"
+      "depends": "Fictional primary email",
+      "checked": "2026-09-17"
     }
   ]
 }

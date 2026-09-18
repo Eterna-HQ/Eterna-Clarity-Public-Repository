@@ -1,3 +1,3 @@
-Room,Item,Brand / model,Serial number,Purchase date,Recorded value,Currency,Photos or receipts: where to find them
-Kitchen,Stand mixer,Example 500,A12345,2025-11-14,650.00,CAD,Receipt in Insurance folder; photo IMG_2048.jpg
-Living room,Television,55-inch example,TV9988,2024-08-02,1100.00,CAD,Photo IMG_2120.jpg
+"Room","Item","Brand / model","Serial number","Purchase date","Recorded value","Currency","Photos or receipts: where to find them"
+"Kitchen","Stand mixer","Fictional example model","001234","2025-11-14","650.00","CAD","Example receipt folder; fictional photo IMG_2048.jpg"
+"Living room","Television","Fictional 55-inch model","000567","2024-08-02","1100.00","CAD","Fictional photo IMG_2120.jpg"

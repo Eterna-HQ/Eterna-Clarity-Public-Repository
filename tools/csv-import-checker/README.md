@@ -1,48 +1,27 @@
 # CSV Import Check
 
-**Version 1.0.1.** A plain-language preflight for spotting CSV values that may be changed, misread, or rejected when you import them into a spreadsheet, CRM, accounting tool, or another app.
+Check a CSV for missing column names, uneven rows and values another app might change.
 
-A CSV can open normally and still contain data that gets interpreted differently during import. Common examples include account numbers with leading zeros, very long numeric identifiers, cells that look like formulas, duplicate column names, or rows with the wrong number of fields.
+[Use the browser checker](https://staging.eterna-clarity-portal.pages.dev/resources/csv-import-check/) | [Read the import checklist](IMPORT-CHECKLIST.md) | [Fictional example](EXAMPLE.md)
 
-This resource helps you look for those problems before the import.
+## What it checks
 
-## What to check
+Choose a comma-separated UTF-8 file. The checker reports blank or repeated column names, uneven records, leading-zero values, long digit-only values and formula-looking text. An empty file, invalid UTF-8 or a malformed quoted field produces an error instead of keeping the previous file's result.
 
-The companion browser tool is designed to flag things such as:
+The optional key-column check compares values exactly, including spaces and letter case. `A`, ` A` and `a` are different values. Missing key values are reported separately. Column-name comparisons, unlike key values, ignore surrounding spaces and case.
 
-- blank or duplicate column names;
-- rows with more or fewer fields than the header;
-- values such as `001234` where a leading zero may matter;
-- long digit-only identifiers that a spreadsheet may change or display differently;
-- cells beginning with formula-style characters such as `=`, `+`, `-`, or `@` when they may be interpreted instead of treated as plain text;
-- exact duplicate values in a column you choose to treat as an identifier. Spaces are preserved when comparing; a missing key is reported separately.
+A quoted value can contain commas, doubled quotes or newlines. Row numbers count CSV records, not physical text lines. Blank rows and spaces in values are preserved.
 
-The tool reports the row, column, original value, and a simple explanation. It does not rewrite the CSV for you.
+The browser limit is 5 MB, 100,000 data rows and 10,000 columns. At most 200 findings are displayed, but the total includes all findings found. Long value previews are shortened without changing the original file.
 
-## Use the checklist without the tool
+## Understand the warnings
 
-[Open the CSV import checklist](IMPORT-CHECKLIST.md) and use it before a real import.
+A leading zero may be meaningful in an identifier. A long number may be reformatted by another app. Formula-looking text needs review, but an ordinary negative number is not automatically an unsafe value. A warning is not proof that data has already changed or that a value is dangerous.
 
-The [fictional example](EXAMPLE.md) shows the kind of issue the checker is meant to catch.
+The checker does not change your file, infer missing digits or guarantee acceptance by every app. Keep the original, follow the receiving app's import instructions and test a small copy before changing important data.
 
-## Important limits
+## Privacy and reuse
 
-This is not a guarantee that a CSV is safe or compatible with every app. Import behaviour varies by software and version. Use the destination application's current import instructions, keep the original CSV, and test a small copy before changing important data.
+The file is read locally in your browser, not uploaded to Eterna. No account is required.
 
-The checker should not guess missing digits, repair identifiers, or decide that a suspicious-looking value is definitely dangerous. It should show you the original value and explain why it deserves a look.
-
-## Privacy
-
-The browser checker reads the CSV locally in your browser. It does not need an Eterna account or a backend upload.
-
-## Reuse
-
-The original checklist, example and documentation in this folder are licensed under [CC BY 4.0](LICENSE-NOTICE.md). Application code is separate and is not released under this content licence.
-
-See [SOURCES.md](SOURCES.md) for the specific evidence behind the checks and their limits.
-
-## File format and errors
-
-Use comma-separated UTF-8 text, up to 5 MB, 100,000 rows and 10,000 columns. Quoted commas, doubled quotes and line breaks inside quoted fields are supported. An unclosed quote, stray quote, invalid UTF-8 or an empty file produces a clear message rather than retaining a previous result. Files with another encoding or delimiter must be exported appropriately first.
-
-An ordinary negative number, such as `-12.5`, is not flagged merely for beginning with a minus sign. A warning about a long identifier or formula-looking value is a reason to inspect it, not proof that it has already changed or is unsafe. The report shows up to 200 findings and says when additional findings were omitted.
+The checklist, fictional example and documentation retain their existing [CC BY 4.0 terms](LICENSE-NOTICE.md). Browser application code is separate from that content licence. See [SOURCES.md](SOURCES.md) for background.

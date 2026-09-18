@@ -1,7 +1,6 @@
 # Open Household Records Taxonomy
 
-Start with the [plain filing guide](START-HERE.md) or [human workbook](taxonomy.xlsx). Guide/workbook edition **0.1.1**, reviewed 17 September 2026. The machine-readable category data remains **0.1.0** with unchanged IDs and meanings.
-
+For the everyday filing task, start with [the plain-language filing guide](START-HERE.md). The human guide/workbook maintenance revision is v0.1.1; the technical taxonomy identifiers, CSV, JSON and schema remain v0.1.0.
 
 **Version:** 0.1.0  
 **Status:** Public review candidate  
@@ -54,68 +53,68 @@ The point is not to deny the other connections. It is to avoid turning every con
 
 ## The fifteen record families
 
-### `ohrt.identity_civil_status`: Identity & civil status
+### `ohrt.identity_civil_status` - Identity & civil status
 Records that establish identity or significant personal-status facts: passports, birth certificates, citizenship or immigration documents, marriage or divorce records, and name-change records.
 
-### `ohrt.home_property`: Home & property
+### `ohrt.home_property` - Home & property
 Records connected to owning, renting, inspecting, improving, repairing, or managing a home or other property: purchase documents, leases, assessments, inspection reports, renovation records, permits, and major property history.
 
-### `ohrt.insurance`: Insurance
+### `ohrt.insurance` - Insurance
 Policies, renewals, coverage information, claims, proof of insurance, and insurer correspondence across home, tenant, vehicle, life, health or supplemental, travel, pet, and other household insurance.
 
-### `ohrt.tax`: Tax
+### `ohrt.tax` - Tax
 Returns, notices of assessment or reassessment, tax slips, receipts, and supporting records retained for tax purposes. Tax authorities determine actual filing and retention requirements.
 
-### `ohrt.legal_estate`: Legal & estate
+### `ohrt.legal_estate` - Legal & estate
 Wills, powers of attorney, personal directives or representation documents, court orders, estate records, guardianship or custody orders, consent documents, separation agreements, and other records whose main purpose is personal legal authority, status, representation, or estate matters.
 
-### `ohrt.emergency_continuity`: Emergency & continuity
+### `ohrt.emergency_continuity` - Emergency & continuity
 Emergency plans, important contacts, care instructions, accessible reference copies, evacuation information, and other material another appropriate person may need when normal household routines are disrupted.
 
-### `ohrt.financial`: Financial
+### `ohrt.financial` - Financial
 Banking, general borrowing, investments, account statements, and other household financial records that do not belong more naturally under a specific property, vehicle, employment, tax, or other family.
 
-### `ohrt.vehicles_transportation`: Vehicles & transportation
+### `ohrt.vehicles_transportation` - Vehicles & transportation
 Registration, purchase and financing records, inspections, maintenance history, service invoices, and other records tied to vehicles or recurring transportation assets.
 
-### `ohrt.health_care`: Health & care
+### `ohrt.health_care` - Health & care
 Medication information, vaccination records, care plans or instructions, treatment or test summaries, provider information, dental or vision records, medical-equipment information, and other records used to understand or coordinate health and care.
 
-### `ohrt.household_assets_receipts_warranties`: Household assets, receipts & warranties
+### `ohrt.household_assets_receipts_warranties` - Household assets, receipts & warranties
 Receipts, warranties, manuals, serial numbers, product registrations, repair records, photographs, and other evidence connected to appliances, electronics, furniture, tools, equipment, and other significant belongings.
 
-### `ohrt.education_children`: Education & children
+### `ohrt.education_children` - Education & children
 Education and training records for household members, plus school, childcare, activity, enrolment, permission, progress, and related child or dependant administration. Examples include post-secondary enrolment records, transcripts, diplomas or certificates, school records, childcare information, and activity registrations.
 
-### `ohrt.employment_income`: Employment & income
+### `ohrt.employment_income` - Employment & income
 Employment agreements, compensation, employment-benefit enrollment or plan administration, pay records, pension documentation, professional credentials, and other records connected to work and household income. An underlying insurance policy remains an Insurance record.
 
-### `ohrt.pets`: Pets
+### `ohrt.pets` - Pets
 Veterinary records, vaccination information, prescriptions, registrations, licences, adoption records, microchip information, and practical care records associated with household animals. Pet insurance policies remain in Insurance and relate back to Pets.
 
-### `ohrt.travel`: Travel
+### `ohrt.travel` - Travel
 Itineraries, bookings, visas, confirmations, rental documents, cancellations or refunds, and other trip-specific information. Passports remain in Identity & civil status; travel insurance policies remain in Insurance.
 
-### `ohrt.household_services_utilities`: Household services & utilities
+### `ohrt.household_services_utilities` - Household services & utilities
 Electricity, gas, water, internet, mobile service, security systems, recurring home-service agreements, bills, installation records, and related correspondence that may matter during moves, disputes, repairs, or account changes.
 
 ## Human workbook and portable data files
 
-[`taxonomy.xlsx`](taxonomy.xlsx) is the human-facing spreadsheet. Its primary **Taxonomy** sheet uses readable column names, wrapped text, practical column widths and row heights, frozen headers, filtering, and the human concepts first. A separate **Start Here** sheet explains the classification rules and important tie-breakers. Technical IDs and machine-oriented fields stay in `taxonomy.json` and `taxonomy.csv` rather than cluttering the human workbook.
+[`taxonomy.xlsx`](taxonomy.xlsx) is the human-facing spreadsheet. Its primary **Taxonomy** sheet uses readable column names, wrapped text, practical column widths and row heights, frozen headers, filtering, and the human concepts first. A separate **How to Use** sheet explains the classification rules and important tie-breakers. Technical IDs and machine-oriented fields stay in `taxonomy.json` and `taxonomy.csv` rather than cluttering the human workbook.
 
 [`taxonomy.csv`](taxonomy.csv) is deliberately a flat portable data export. CSV files cannot store spreadsheet presentation such as column widths, wrapping, colours, frozen panes, fonts, or worksheet layout, so it should not be treated as the designed human spreadsheet.
 
 Each category in `taxonomy.json` includes:
 
-- `id`: stable category identifier;
-- `slug` and `name`: human-readable labels;
-- `display_order`: presentation hint, not part of identity;
-- `definition`: the category boundary in plain language;
-- `examples`: illustrative record types, not a requirements list;
-- `applicability`: when the family is relevant;
-- `sensitivity`: a non-regulatory cue for handling care;
-- `lifecycle.review_triggers`: events that should prompt a currency or relevance review;
-- `related_categories`: common cross-category relationships.
+- `id` - stable category identifier;
+- `slug` and `name` - human-readable labels;
+- `display_order` - presentation hint, not part of identity;
+- `definition` - the category boundary in plain language;
+- `examples` - illustrative record types, not a requirements list;
+- `applicability` - when the family is relevant;
+- `sensitivity` - a non-regulatory cue for handling care;
+- `lifecycle.review_triggers` - events that should prompt a currency or relevance review;
+- `related_categories` - common cross-category relationships.
 
 `taxonomy.schema.json` documents the JSON structure for implementers.
 
@@ -137,9 +136,9 @@ See [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) and the repository-wide [`GOVERNANC
 
 ## Files
 
-- [`taxonomy.xlsx`](taxonomy.xlsx): formatted human-facing workbook with Taxonomy and How to Use sheets.
-- [`taxonomy.json`](taxonomy.json): canonical machine-readable category data for this candidate.
-- [`taxonomy.csv`](taxonomy.csv): flat portable tabular export for data interchange and simple inspection; not the formatted workbook.
-- [`taxonomy.schema.json`](taxonomy.schema.json): JSON Schema for the published structure.
-- [`CHANGELOG.md`](CHANGELOG.md): version history.
-- [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md): current licensing boundary.
+- [`taxonomy.xlsx`](taxonomy.xlsx) - formatted human-facing workbook with Taxonomy and How to Use sheets.
+- [`taxonomy.json`](taxonomy.json) - canonical machine-readable category data for this candidate.
+- [`taxonomy.csv`](taxonomy.csv) - flat portable tabular export for data interchange and simple inspection; not the formatted workbook.
+- [`taxonomy.schema.json`](taxonomy.schema.json) - JSON Schema for the published structure.
+- [`CHANGELOG.md`](CHANGELOG.md) - version history.
+- [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) - current licensing boundary.

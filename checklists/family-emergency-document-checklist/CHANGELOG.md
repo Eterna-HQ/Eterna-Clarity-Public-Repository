@@ -2,12 +2,11 @@
 
 ## 0.1.1 maintenance candidate | 17 September 2026
 
-- Align workbook, readable template and public instructions using ordinary task language.
-- Preserve the original information prompts, source references and existing CC BY 4.0 content terms.
-- Validate the workbook package and inspect every worksheet. No new licence or production release is implied.
-- Repair damaged workbook metadata and the ZIP directory using matching earlier metadata; preserve intact current worksheet content and its current filter range.
+- Repaired damaged workbook packaging using verified metadata from the earlier workbook while preserving intact current worksheet and style parts.
+- Simplified labels and synchronized the workbook with the readable checklist.
+- Preserved the checklist scope, sources, review triggers and existing CC BY 4.0 terms.
 
-## 0.1.0: 2026-08-25
+## 0.1.0 - 2026-08-25
 
 **Status:** Public review candidate
 
@@ -21,7 +20,7 @@ Initial candidate includes:
 - change-based review triggers plus a periodic refresh for quiet expiry and stale information;
 - a ten-minute usability test focused on whether another household member or trusted person can actually find and use the information.
 
-### Human-value paired review: 2026-08-25
+### Human-value paired review - 2026-08-25
 
 The paired Brief/resource review made the asset more useful to a real household rather than merely complete:
 
@@ -33,7 +32,7 @@ The paired Brief/resource review made the asset more useful to a real household 
 - improved the workbook input model: `Applies?` and `Ready?` use simple drop-down states, free-text guidance warns against storing secrets, and the main checklist language is shorter and more natural;
 - expanded source context to current Government of Canada emergency-kit and disability-preparedness guidance in addition to household-plan and pet/service-animal guidance.
 
-### Licensing decision: 2026-08-26
+### Licensing decision - 2026-08-26
 
 - founder approved the Creative Commons Attribution 4.0 International licence (CC BY 4.0) for the matched public resource;
 - version 0.1.0 is now reusable under CC BY 4.0 with attribution to Eterna Clarity;

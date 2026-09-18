@@ -1,4 +1,4 @@
-Claim number,Insurer / contact,Adjuster / specialist,Date of loss,Entry date,Entry type,Details,Amount,Currency,Receipt or photo reference
-DEMO-001,"Example insurer, claims desk",Fictional adjuster,2026-09-10,2026-09-10,Item or damage,Kitchen window broken; photographed before temporary repair.,,CAD,IMG_4102.jpg
-DEMO-001,"Example insurer, claims desk",Fictional adjuster,2026-09-10,2026-09-11,Conversation,Spoke with adjuster about the next inspection step.,,CAD,Email received that day
-DEMO-001,"Example insurer, claims desk",Fictional adjuster,2026-09-10,2026-09-11,Expense,Temporary boarding materials.,86.40,CAD,Receipt 1042
+"Claim number","Insurer / contact","Adjuster / specialist","Date of loss","Entry date","Entry type","Details","Amount","Currency","Receipt or photo reference"
+"FICTIONAL-001","Example insurer","Example contact","2026-09-10","2026-09-10","Item or damage","Fictional kitchen window damage; photographed before temporary repair.","","CAD","Example photo IMG_4102.jpg"
+"FICTIONAL-001","Example insurer","Example contact","2026-09-10","2026-09-11","Conversation","Fictional call about the next inspection.","","CAD","Example email note"
+"FICTIONAL-001","Example insurer","Example contact","2026-09-10","2026-09-11","Expense","Fictional temporary boarding materials.","86.40","CAD","Example receipt 1042"

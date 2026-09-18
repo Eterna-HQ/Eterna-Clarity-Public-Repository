@@ -2,30 +2,26 @@
 
 Keep your claim number, conversations, expenses and next steps in one place.
 
-[Preview the browser tool](https://staging.eterna-clarity-portal.pages.dev/resources/insurance-claim-log/) (staging review; access may be required). The public library remains [Resources](https://eternaclarity.com/resources/).
+[Use the browser tool](https://staging.eterna-clarity-portal.pages.dev/resources/insurance-claim-log/) | [Blank CSV](CLAIM-LOG-TEMPLATE.csv) | [Fictional CSV example](EXAMPLE.csv) | [Reopenable fictional example](EXAMPLE.json)
 
 ## Use the log
 
-Add claim details at the top, then record an item or damage, a conversation, an expense or a next action. Entries are shown by date. Entries on the same date keep their recorded order. Edit an entry to correct it or note that an action has been completed; this is a timeline, not a separate task-management system.
+Add the claim details you need and choose a currency code. Record dated damage notes, conversations, expenses or next actions. Entries appear in date order; entries on the same date keep their original order. The expense total includes only entries marked **Expense**. Changing the currency label does not convert amounts.
 
-Choose the currency used in this claim. Amounts accept `1200` or `1,200.50`; a blank amount stays blank. The expense total includes only entries marked **Expense**. It is not an insurer's decision about what will be paid. Follow your insurer's instructions for what to submit.
+Use **Edit** to correct a record. This is a chronological log, not a task manager with a list of unfinished tasks. Add a follow-up note or edit a next-action entry when it is finished.
 
-## Files you can use
+## Save and reopen
 
-- [Blank CSV](CLAIM-LOG-TEMPLATE.csv) and [fictional CSV example](EXAMPLE.csv): a consistent ten-column table. Claim details and currency are repeated on each row so the export remains a usable data table.
-- [Blank saved-data file](CLAIM-LOG-TEMPLATE.json) and [fictional saved-data example](EXAMPLE.json): preserve claim details and entries for reopening in the browser tool.
-- [Sources](SOURCES.md) and [licence notice](LICENSE-NOTICE.md).
+Use **Save data file** to keep your recorded entries and claim details in a JSON file. On a later visit, choose **Open saved data**. Save the entry currently in the form first. Opening a saved file replaces the current log after confirmation; it does not merge logs.
 
-The browser also offers a readable text report. Do not confuse that report with the CSV data table.
+Your work stays in this tab while you browse Resources. It is not automatically saved when the tab is refreshed or closed. Files can contain up to 10,000 entries, with a maximum saved size of 5 MB and 10,000 characters per text field.
 
-## Keep your information private
+**Download CSV** creates a ten-column table with the claim details repeated on each row. **Download text** creates a readable summary. These are separate from the JSON file used to reopen the tool. An export request does not prove that the receiving app opened it correctly.
 
-The browser tool keeps entered records in the current tab. It does not send their contents to Eterna or save them automatically to an account. Download a data file before leaving or refreshing the page. Keep saved files somewhere private, particularly on a shared device.
+## Important limits
 
-Use **Save data file** and later **Open saved data** to continue. A CSV is for viewing in a spreadsheet; it cannot be reopened as a saved record in this tool. Finish or discard the current form entry before downloading. Opening a different saved file replaces the tool's current records after confirmation.
+The log processes your information locally in your browser. Keep saved copies private. Photos and receipts stay where you keep them; the tool records a reference rather than uploading them.
 
-The tool accepts its matching JSON data format, up to 5 MB and 10,000 records. Invalid files leave the current records unchanged.
+Follow your insurer's instructions and forms for the actual claim. This tool does not decide coverage or which supporting information an insurer requires.
 
-## Version and reuse
-
-Companion edition 1.0.1, reviewed 17 September 2026. The saved-data format remains `eterna.insurance-claim-log.v1`. No new reuse licence is granted by this maintenance edition. Do not include real claim records in public examples or issue reports.
+[Sources](SOURCES.md) | [Licence notice](LICENSE-NOTICE.md). No open reuse licence has been assigned to this companion package.

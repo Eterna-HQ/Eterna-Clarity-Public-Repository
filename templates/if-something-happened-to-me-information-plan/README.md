@@ -2,7 +2,7 @@
 
 A free workbook that helps someone you trust understand what needs attention if you are suddenly unavailable.
 
-**[Download the Excel workbook](information-plan.xlsx)** · [Open the browser version](PLAN-TEMPLATE.md)
+**[Download the Excel workbook](information-plan.xlsx)** · [Open the readable template](PLAN-TEMPLATE.md)
 
 ## What this is
 
@@ -16,13 +16,13 @@ It helps you record:
 - where important household information lives;
 - what is currently in progress;
 - which recurring responsibilities cannot be missed; and
-- where protected access or recovery arrangements are managed.
+- how account access or recovery has been arranged.
 
 It is not meant to become a copy of every document you own.
 
 ## When it helps
 
-This is useful when one person carries a lot of the household context about bills, providers, appointments, repairs, insurance matters, care responsibilities, important documents or digital accounts.
+This is useful when one person carries most of the household details about bills, service contacts, appointments, repairs, insurance matters, care responsibilities, important documents or digital accounts.
 
 You might use it when:
 
@@ -36,13 +36,15 @@ You might use it when:
 The Excel workbook includes:
 
 - a **Start Here** page;
-- a map of the important areas in your household;
-- a place to record unfinished or ongoing situations;
-- recurring responsibilities that should not be missed;
-- pointers to important authority and access arrangements; and
-- a simple review and handoff test.
+- **Household overview**, for important information and contacts;
+- **Things in progress**, for unfinished or ongoing situations;
+- **Regular responsibilities**, for things that should not be missed;
+- **Access and documents**, for important arrangements and contacts; and
+- **Try the plan**, for checking whether another person can use it.
 
-The browser version contains the same core prompts in a format that is easy to read, copy or adapt.
+The readable template contains the same core prompts in a format that is easy to read, copy or adapt.
+
+See the [fictional worked example](EXAMPLE.md) before filling in your own private copy.
 
 ## A good first 10 minutes
 
@@ -51,7 +53,7 @@ Do not try to document your entire life at once. Start with:
 1. two or three people someone should contact first;
 2. three to five household areas another person could not easily reconstruct;
 3. anything open or due in the next two weeks that should not be forgotten; and
-4. where any protected digital-access or recovery arrangement is managed.
+4. where any account access or recovery arrangement is managed.
 
 If something already has a clear home, point to it rather than copying it into several places.
 
@@ -61,7 +63,7 @@ Do **not** put passwords, PINs, recovery codes, encryption keys, banking credent
 
 A completed plan can still reveal sensitive household information, so keep and share it only where appropriate.
 
-Writing somebody’s name in this workbook does not give them legal authority or change any formal arrangement. Wills, powers of attorney, personal directives, beneficiary designations, account mechanisms, contracts and other formal documents remain the things that actually control those decisions.
+Writing somebody’s name in this workbook does not give them legal authority or change any formal arrangement. Wills, powers of attorney, personal directives, beneficiary designations, account mechanisms, contracts and other governing documents remain the things that actually control those decisions.
 
 ## How this differs from the Family Emergency Document Checklist
 
@@ -71,16 +73,16 @@ This Information Plan is for the **days and weeks after that**. It focuses on un
 
 ## Files
 
-- [`information-plan.xlsx`](information-plan.xlsx): the formatted working workbook.
-- [`PLAN-TEMPLATE.md`](PLAN-TEMPLATE.md): browser-readable and copyable version.
-- [`CHANGELOG.md`](CHANGELOG.md): version history.
-- [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md): licence details.
+- [`information-plan.xlsx`](information-plan.xlsx) - the formatted working workbook.
+- [`PLAN-TEMPLATE.md`](PLAN-TEMPLATE.md) - browser-readable and copyable version.
+- [`CHANGELOG.md`](CHANGELOG.md) - version history.
+- [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) - licence details.
 
 ## Version and licence
 
-This is an **early public version (v0.1.1)** and may improve as Eterna Clarity continues working on it.
+This is a **v0.1.1 maintenance candidate** of the original v0.1.0 plan. It simplifies wording without changing the purpose or formal-document limits.
 
-Version 0.1.1 is licensed under the **Creative Commons Attribution 4.0 International licence (CC BY 4.0)**. You may share and adapt Eterna Clarity-authored material, including commercially, provided the licence and attribution requirements are followed.
+The original version and this maintenance revision retain the **Creative Commons Attribution 4.0 International licence (CC BY 4.0)**. You may share and adapt Eterna Clarity-authored material, including commercially, provided the licence and attribution requirements are followed.
 
 Recommended attribution: **If Something Happened to Me Information Plan by Eterna Clarity, licensed under CC BY 4.0.**
 
@@ -92,5 +94,5 @@ This is an organization and preparedness resource, not legal, estate-planning, m
 
 Preparedness references used while developing this resource:
 
-- [Government of Canada: Make an emergency plan](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/make-plan.html)
-- [Government of Canada: Emergency plan form](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/make-plan/emergency-plan-form.html)
+- [Government of Canada - Make an emergency plan](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/make-plan.html)
+- [Government of Canada - Emergency plan form](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/make-plan/emergency-plan-form.html)

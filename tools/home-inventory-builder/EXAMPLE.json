@@ -5,20 +5,20 @@
     {
       "room": "Kitchen",
       "item": "Stand mixer",
-      "model": "Example 500",
-      "serial": "A12345",
+      "model": "Fictional example model",
+      "serial": "001234",
       "date": "2025-11-14",
       "value": "650.00",
-      "evidence": "Receipt in Insurance folder; photo IMG_2048.jpg"
+      "evidence": "Example receipt folder; fictional photo IMG_2048.jpg"
     },
     {
       "room": "Living room",
       "item": "Television",
-      "model": "55-inch example",
-      "serial": "TV9988",
+      "model": "Fictional 55-inch model",
+      "serial": "000567",
       "date": "2024-08-02",
       "value": "1100.00",
-      "evidence": "Photo IMG_2120.jpg"
+      "evidence": "Fictional photo IMG_2120.jpg"
     }
   ]
 }

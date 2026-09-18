@@ -1,29 +1,23 @@
 # Home Inventory Builder
 
-List belongings room by room, note where photos or receipts are kept, and save a copy to continue later.
+List your belongings room by room, note where photos or receipts are kept, and save a copy for later. Values are amounts you choose to record, not insurance valuations or replacement-cost estimates.
 
-[Preview the browser tool](https://staging.eterna-clarity-portal.pages.dev/resources/home-inventory/) (staging review; access may be required). The public library remains [Resources](https://eternaclarity.com/resources/).
+[Use the browser tool](https://staging.eterna-clarity-portal.pages.dev/resources/home-inventory/) | [Blank CSV](INVENTORY-TEMPLATE.csv) | [Fictional CSV example](EXAMPLE.csv) | [Reopenable fictional example](EXAMPLE.json)
 
-## Start here
+## Start and come back later
 
-Add the room and item. Brand, model, serial number, purchase date, amount and photo or receipt location are optional. Edit an entry to correct it, or remove an entry you no longer need.
+Choose one currency code for the whole inventory, such as CAD. Add a room and item; the other details are optional. Enter amounts such as `1200` or `1,200.50`. Changing the currency label does not convert amounts.
 
-Choose the currency used by the amounts, such as CAD. Amounts accept `1200` or `1,200.50`; an empty amount stays empty and zero stays zero. A currency label does not convert values. The total adds the amounts you recorded; it is not an insurance valuation or an estimate of replacement cost.
+Use **Edit** to correct an entry. Add or save the current entry before exporting. **Save data file** creates a JSON file containing your recorded entries. Keep that file somewhere private. On a later visit, choose **Open saved data** to continue. Opening a saved file replaces the records in the tool after confirmation; it does not merge two inventories.
 
-## Files you can use
+Your work stays in the current tab while you browse Resources, but it is not automatically saved across a refresh or closed tab. Do not rely on a browser warning as your only reminder to save.
 
-- [Blank CSV](INVENTORY-TEMPLATE.csv) and [fictional CSV example](EXAMPLE.csv): eight columns, including currency.
-- [Blank saved-data file](INVENTORY-TEMPLATE.json) and [fictional saved-data example](EXAMPLE.json): open these with **Open saved data** in the browser tool.
-- [Sources](SOURCES.md) and [licence notice](LICENSE-NOTICE.md).
+**Download CSV** creates an eight-column table for a spreadsheet. It is not the format used to reopen the browser tool. Import serial numbers as text in the receiving app so identifiers such as `001234` remain intact. The tool does not attach or upload your photos or receipts; it records where you keep them.
 
-## Keep your information private
+Saved files may contain up to 10,000 entries and be no larger than 5 MB. Each text field may contain up to 10,000 characters. The tool reports a problem rather than silently replacing an invalid amount with zero.
 
-The browser tool keeps entered records in the current tab. It does not send their contents to Eterna or save them automatically to an account. Download a data file before leaving or refreshing the page. Keep saved files somewhere private, particularly on a shared device.
+## Privacy and reuse
 
-Use **Save data file** and later **Open saved data** to continue. A CSV is for viewing in a spreadsheet; it cannot be reopened as a saved record in this tool. Finish or discard the current form entry before downloading. Opening a different saved file replaces the tool's current records after confirmation.
+Records are processed in your browser, not sent to Eterna. A completed inventory is still private information; avoid unnecessary identity or account details and keep downloaded copies secure.
 
-The tool accepts its matching JSON data format, up to 5 MB and 10,000 records. Invalid files leave the current records unchanged.
-
-## Version and reuse
-
-Companion edition 1.0.1, reviewed 17 September 2026. The saved-data format remains `eterna.home-inventory.v1`. Older matching files without a currency can be opened; select their currency before relying on a total. No new reuse licence is granted by this maintenance edition.
+[Sources](SOURCES.md) | [Licence notice](LICENSE-NOTICE.md). No open reuse licence has been assigned to this companion package.

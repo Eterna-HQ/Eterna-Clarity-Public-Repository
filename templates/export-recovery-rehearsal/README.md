@@ -1,31 +1,21 @@
 # Export Check: Can I Still Use My Data?
 
-Before you cancel an app, rely on a backup or move information, try one real task using the exported copy.
+**Version 1.2.0 maintenance candidate.** Open the files, photos and links you need, then try one real task without the old app before you rely on an export or backup.
 
-**[Download the workbook](rehearsal.xlsx)** or [read and copy the checklist](REHEARSAL.md).
+[Download the workbook](rehearsal-v1.2.0.xlsx) | [Read the checklist](REHEARSAL.md) | [See the fictional example](EXAMPLE.md)
 
-## Start with one task
+## Use it
 
-Choose something you need to do, such as finding a document and its attachment or handing a task to another person. Open the files, follow important links, check access and try the task without returning to the original app. Keep the original while you test.
+Pick one real thing you need to do. Keep the original account or files available while you check the files, attachments, links, history, filters, reminders and access that task needs.
 
-The workbook has **Start Here**, **Checks**, **Example**, and **Sources and Limits** sheets. Fill in the checks that matter to your task. The Example sheet is fictional.
+For each check, select **Works**, **Doesn't work**, **Not checked** or **Doesn't apply**. Record what happened and any useful next step. One successful example does not prove that the whole export is complete.
 
-## What the summary means
+The workbook begins with nine named checks. Unused spare rows do not count just because their result says Not checked. The summary counts the result you selected; reminders about missing notes are separate from that result. Add your own check in a spare row when needed.
 
-The summary counts your result choices: Works, Not checked, Doesn't apply and Doesn't work. The blank workbook has nine named checks and four spare rows. Unused spare rows do not count as work or problems just because their result defaults to Not checked.
+Do not put passwords, recovery codes, secret links or sensitive record contents in this checklist. Save your completed copy privately.
 
-**Quick check** offers reminders about missing notes. It is separate from your result: marking Works is not the same as having filled every note field. Neither count proves that the entire export is complete, secure or safe to delete.
+## Version history and reuse
 
-## Version 1.2.0
+The prior [v1.1.0 workbook](rehearsal-v1.1.0.xlsx) is retained for history. Its spare-row counting is known to be wrong; use v1.2.0 for new work. This review candidate is not a claim of a production release.
 
-This maintenance edition repairs unused-row counting and separates result counts from note-completeness reminders. It also aligns the instructions and fictional example with the plain checklist. See [CHANGELOG.md](CHANGELOG.md).
-
-The previous [version 1.1.0 workbook](rehearsal-v1.1.0.xlsx) is retained for historical reference. Its spare-row summary is known to be wrong; use the current workbook above instead.
-
-## Files and limits
-
-[Checklist](REHEARSAL.md), [fictional example](EXAMPLE.md), [sources](SOURCES.md), and [licence notice](LICENSE-NOTICE.md).
-
-This workbook does not inspect your files automatically, restore application features or decide whether you may delete an account. Do not put passwords, recovery codes, secret links or sensitive record contents in it. Use the current instructions for the application involved.
-
-The existing **CC BY 4.0** content licence is unchanged. It does not cover third-party material or Eterna's name, logo and trademarks.
+The workbook, checklist and fictional example retain the package's existing [CC BY 4.0 terms](LICENSE-NOTICE.md). See [CHANGELOG.md](CHANGELOG.md) for the corrections and [SOURCES.md](SOURCES.md) for background and limits.

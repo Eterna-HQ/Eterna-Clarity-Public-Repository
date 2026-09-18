@@ -2,9 +2,13 @@
 
 If you just want a sensible place for business records, start here. The formal technical model behind this guide is the **Open Small Business Records Taxonomy (OSBRT)**.
 
+Human guide/workbook v0.1.1 maintenance candidate. The technical taxonomy remains v0.1.0.
+
 ## The simple rule
 
 Give each record **one main category based on the business responsibility that needs the information to stay correct**. Keep other connections as notes or references instead of making competing primary copies.
+
+One main category does not mean one copy. Keep backups and any copies required by your work or official requirements; avoid maintaining conflicting main versions.
 
 Examples:
 
@@ -19,11 +23,10 @@ Examples:
 
 A one-person company can still use these categories. The categories describe the work, not the size of the org chart.
 
-- [Download the human workbook](taxonomy.xlsx)
+- [Download the filing workbook](taxonomy.xlsx)
 - [Read the complete technical reference](README.md)
 - [Use the website guide](https://staging.eterna-clarity-portal.pages.dev/resources/business-records-guide/)
 
 This is a classification reference. It does not replace tax, payroll, corporate, privacy, safety, professional, contractual, licensing or industry-specific requirements.
 
-
-[Open the human workbook](taxonomy.xlsx). Guide/workbook edition 0.1.1; category data remains 0.1.0. The workbook starts with the human guide and keeps the technical reference available separately. No open reuse licence has been assigned; see [LICENSE-NOTICE.md](LICENSE-NOTICE.md).
+No open reuse licence has been assigned to this public draft. See [LICENSE-NOTICE.md](LICENSE-NOTICE.md).

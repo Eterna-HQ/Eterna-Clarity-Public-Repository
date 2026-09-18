@@ -4,7 +4,7 @@ Useful tools, checks, templates and reference material from [Eterna Clarity](htt
 
 You do not need an Eterna account or an email signup to use these resources. Start with the problem you are trying to solve.
 
-## Review edition | 17 September 2026
+## Review edition | 18 September 2026
 
 These updated files and individual browser pages are being reviewed before production promotion. Browser links below point to staging and may require access. They are not a claim that the new individual URLs have been released on the production website. The public [Resources library](https://eternaclarity.com/resources/) remains the normal public starting point.
 
@@ -85,8 +85,8 @@ Open the files, photos and links you need, then try one real task without the ol
 
 - [Open the resource folder](templates/export-recovery-rehearsal/)
 - [Use the current browser-readable checklist](templates/export-recovery-rehearsal/REHEARSAL.md)
-- [Download the corrected v1.2.0 workbook](templates/export-recovery-rehearsal/rehearsal.xlsx)
-- [Previous v1.1 workbook, known counting defect, historical only](templates/export-recovery-rehearsal/rehearsal-v1.1.0.xlsx)
+- [Download the corrected v1.2.0 workbook](templates/export-recovery-rehearsal/rehearsal-v1.2.0.xlsx)
+- [Read version history](templates/export-recovery-rehearsal/CHANGELOG.md)
 
 ## Guides and references
 
@@ -102,7 +102,6 @@ A public explanation of what affects the current Clarity Score, why serious gaps
 A human starting point for the formal **Open Household Records Taxonomy**.
 
 - [Start with the filing guide](taxonomies/open-household-records-taxonomy/START-HERE.md)
-- [Download the human workbook](taxonomies/open-household-records-taxonomy/taxonomy.xlsx)
 - [Open the full technical package](taxonomies/open-household-records-taxonomy/)
 - [Use the website guide](https://staging.eterna-clarity-portal.pages.dev/resources/household-records-guide/)
 
@@ -111,7 +110,6 @@ A human starting point for the formal **Open Household Records Taxonomy**.
 A human starting point for the formal **Open Small Business Records Taxonomy**.
 
 - [Start with the filing guide](taxonomies/open-small-business-records-taxonomy/START-HERE.md)
-- [Download the human workbook](taxonomies/open-small-business-records-taxonomy/taxonomy.xlsx)
 - [Open the full technical package](taxonomies/open-small-business-records-taxonomy/)
 - [Use the website guide](https://staging.eterna-clarity-portal.pages.dev/resources/business-records-guide/)
 
