@@ -2,7 +2,7 @@
 
 Keep your claim number, conversations, expenses and next steps in one place.
 
-[Use the browser tool](https://staging.eterna-clarity-portal.pages.dev/resources/insurance-claim-log/) | [Blank CSV](CLAIM-LOG-TEMPLATE.csv) | [Fictional CSV example](EXAMPLE.csv) | [Reopenable fictional example](EXAMPLE.json)
+[Use the browser tool](https://eternaclarity.com/resources/insurance-claim-log/) | [Blank CSV](CLAIM-LOG-TEMPLATE.csv) | [Fictional CSV example](EXAMPLE.csv) | [Reopenable fictional example](EXAMPLE.json)
 
 ## Use the log
 
