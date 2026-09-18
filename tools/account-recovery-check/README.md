@@ -2,7 +2,7 @@
 
 Check how you would get back into important accounts if you lost your phone or usual sign-in method.
 
-[Use the browser check](https://staging.eterna-clarity-portal.pages.dev/resources/account-recovery-check/) | [Read the checklist](CHECK.md) | [Fictional example](EXAMPLE.md) | [Reopenable fictional example](EXAMPLE.json)
+[Use the browser check](https://eternaclarity.com/resources/account-recovery-check/) | [Read the checklist](CHECK.md) | [Fictional example](EXAMPLE.md) | [Reopenable fictional example](EXAMPLE.json)
 
 List an account using a label you recognize. Choose **Yes**, **No** or **Not sure** for each recovery question. No answers and uncertain answers are reported separately; one account can appear in both counts. A contact that is no longer up to date needs attention even when another way in exists.
 
