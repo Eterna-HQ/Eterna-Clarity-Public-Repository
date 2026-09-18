@@ -21,6 +21,6 @@ Serious gaps can limit the overall score instead of being averaged away by unrel
 
 The Clarity Score is not a scientific benchmark, population norm, legal assessment, insurance assessment, financial rating or guarantee that your information is complete. A score should be interpreted with the underlying gaps, confidence and evidence, not by itself.
 
-- [Read the website guide](https://staging.eterna-clarity-portal.pages.dev/resources/clarity-score-guide/)
+- [Read the website guide](https://eternaclarity.com/resources/clarity-score-guide/)
 - [See a fictional example](EXAMPLE.md)
 - [Read the licence notice](LICENSE-NOTICE.md)
