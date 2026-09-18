@@ -12,3 +12,7 @@ For each question choose **Ready**, **Needs work**, **Not sure**, or **Does not 
 ## What to fix first
 
 For every **Needs work** or **Not sure** answer, write one next step. Keep the real information in its proper secure location; this checklist should point to it rather than becoming a copy of sensitive records.
+
+## Prove one Ready answer
+
+Before you finish, pick one answer you marked **Ready** and test it for real. Ask the trusted person who may need the information to find one actual item without coaching from you. If they cannot find it quickly, change that answer to **Needs work** and fix the path to the information.

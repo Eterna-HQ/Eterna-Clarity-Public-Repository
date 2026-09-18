@@ -6,14 +6,15 @@ Use it for a household job, a recurring responsibility, a project task, a client
 
 ## What goes in
 
-Answer six practical questions:
+Answer seven practical questions:
 
 1. What needs to happen?
 2. When does it need to happen?
 3. Who is taking it over?
 4. Where are the files or information?
 5. What is the next step or decision?
-6. What could block it, or when should they ask for help?
+6. When should they stop and ask for help?
+7. Who should they ask if they get stuck?
 
 That is enough for many everyday handoffs. Add more only when the task actually needs it.
 
@@ -21,7 +22,7 @@ That is enough for many everyday handoffs. Add more only when the task actually 
 
 [Open the blank handoff template](HANDOFF-TEMPLATE.md), or see the [fictional example](EXAMPLE.md).
 
-A browser version is being qualified separately on the Eterna Clarity website. This repository package does not claim that application is live yet.
+The live browser version is available on the [Eterna Clarity website](https://eternaclarity.com/resources/task-handoff-builder/).
 
 ## A good handoff is specific
 

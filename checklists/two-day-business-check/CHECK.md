@@ -17,3 +17,7 @@ For each area choose **Could continue**, **Would slow down**, **Would stop**, **
 2. Put **Would slow down** items second.
 3. Resolve **Not sure** items by testing the handover instead of assuming it works.
 4. Give each gap one concrete next action.
+
+## Prove one Could continue answer
+
+Before you finish, pick one area you marked **Could continue** and test it for real. Have the backup person open or use one current file, system or instruction without help from the key person. If they cannot do it, change the answer and fix the handover before relying on it.

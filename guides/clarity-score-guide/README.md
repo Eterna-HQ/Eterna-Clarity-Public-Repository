@@ -24,3 +24,13 @@ The Clarity Score is not a scientific benchmark, population norm, legal assessme
 - [Read the website guide](https://eternaclarity.com/resources/clarity-score-guide/)
 - [See a fictional example](EXAMPLE.md)
 - [Read the licence notice](LICENSE-NOTICE.md)
+
+## What to do with your score
+
+Use the score as a pointer, not the task itself:
+
+1. Find the weakest factor or the serious gap limiting the score.
+2. Look at the underlying information that caused it.
+3. Choose one concrete next action that would make that information more complete, current, supported, reachable or usable.
+
+Then reassess after the change. A higher number matters only when the underlying information is actually stronger.
