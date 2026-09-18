@@ -2,7 +2,7 @@
 
 Check a CSV for missing column names, uneven rows and values another app might change.
 
-[Use the browser checker](https://staging.eterna-clarity-portal.pages.dev/resources/csv-import-check/) | [Read the import checklist](IMPORT-CHECKLIST.md) | [Fictional example](EXAMPLE.md)
+[Use the browser checker](https://eternaclarity.com/resources/csv-import-check/) | [Read the import checklist](IMPORT-CHECKLIST.md) | [Fictional example](EXAMPLE.md)
 
 ## What it checks
 
