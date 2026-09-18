@@ -4,7 +4,7 @@ Use this six-question check to find household information that would be difficul
 
 There is no score. The useful result is a short list of things to fix.
 
-- [Use the website check](https://staging.eterna-clarity-portal.pages.dev/resources/household-information-check/)
+- [Use the website check](https://eternaclarity.com/resources/household-information-check/)
 - [Use the plain checklist](CHECK.md)
 - [See a fictional example](EXAMPLE.md)
 - [Review the sources](SOURCES.md)
