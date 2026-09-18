@@ -80,7 +80,7 @@ This Information Plan is for the **days and weeks after that**. It focuses on un
 
 ## Version and licence
 
-This is a **v0.1.1 maintenance candidate** of the original v0.1.0 plan. It simplifies wording without changing the purpose or formal-document limits.
+This is **v0.1.1**, the current public maintenance revision of the original v0.1.0 plan. It simplifies wording without changing the purpose or formal-document limits.
 
 The original version and this maintenance revision retain the **Creative Commons Attribution 4.0 International licence (CC BY 4.0)**. You may share and adapt Eterna Clarity-authored material, including commercially, provided the licence and attribution requirements are followed.
 

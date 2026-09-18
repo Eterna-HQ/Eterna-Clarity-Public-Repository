@@ -1,6 +1,6 @@
 # Export Check: Can I Still Use My Data?
 
-Version 1.2.0 maintenance candidate | Eterna Clarity
+Version 1.2.0 | Eterna Clarity
 
 Use this before you cancel an app, trust a backup, or move important information somewhere else.
 

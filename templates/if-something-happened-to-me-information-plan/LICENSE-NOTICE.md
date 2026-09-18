@@ -12,6 +12,6 @@ License: https://creativecommons.org/licenses/by/4.0/
 
 Unless otherwise noted, this licence applies to Eterna Clarity-authored content in this resource directory. It does not grant rights in third-party trademarks, externally sourced material, or content identified as having separate terms.
 
-This resource remains a **Public Review Candidate** until Eterna Clarity separately authorizes its final public release. The CC BY 4.0 licence applies to version 0.1.0 notwithstanding that review status.
+Version 0.1.1 is the current public maintenance revision. The CC BY 4.0 licence applies to Eterna Clarity-authored material in the current resource as described above.
 
 This notice describes the current licensing state and is not legal advice.

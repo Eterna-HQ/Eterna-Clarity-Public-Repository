@@ -1,6 +1,6 @@
 # Export Check: Can I Still Use My Data?
 
-**Version 1.2.0 maintenance candidate.** Open the files, photos and links you need, then try one real task without the old app before you rely on an export or backup.
+**Version 1.2.0.** Open the files, photos and links you need, then try one real task without the old app before you rely on an export or backup.
 
 [Download the workbook](rehearsal-v1.2.0.xlsx) | [Read the checklist](REHEARSAL.md) | [See the fictional example](EXAMPLE.md)
 
@@ -16,6 +16,6 @@ Do not put passwords, recovery codes, secret links or sensitive record contents 
 
 ## Version history and reuse
 
-The prior [v1.1.0 workbook](rehearsal-v1.1.0.xlsx) is retained for history. Its spare-row counting is known to be wrong; use v1.2.0 for new work. This review candidate is not a claim of a production release.
+The prior [v1.1.0 workbook](rehearsal-v1.1.0.xlsx) is retained for history. Its spare-row counting is known to be wrong; use v1.2.0 for new work. Version 1.2.0 is the current public version.
 
 The workbook, checklist and fictional example retain the package's existing [CC BY 4.0 terms](LICENSE-NOTICE.md). See [CHANGELOG.md](CHANGELOG.md) for the corrections and [SOURCES.md](SOURCES.md) for background and limits.

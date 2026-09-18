@@ -86,7 +86,7 @@ The [If Something Happened to Me Information Plan](../../templates/if-something-
 
 ## Version and licence
 
-This is a **v0.1.1 maintenance candidate** of the original v0.1.0 checklist. It preserves the existing checklist, sources and licence terms.
+This is **v0.1.1**, the current public maintenance revision of the original v0.1.0 checklist. It preserves the existing checklist, sources and licence terms.
 
 The original checklist and this maintenance revision retain the **Creative Commons Attribution 4.0 International licence (CC BY 4.0)**. You may share and adapt Eterna Clarity-authored material, including commercially, provided the licence and attribution requirements are followed.
 
