@@ -2,13 +2,15 @@
 
 If you just want to organize household records, start here. The formal technical model behind this guide is the **Open Household Records Taxonomy (OHRT)**.
 
-Human guide/workbook v0.1.1 maintenance candidate. The technical taxonomy remains v0.1.0.
+Human guide/workbook v0.1.1. The technical taxonomy remains v0.1.0.
 
 ## The simple rule
 
 Give each record **one main home based on what it is mostly about**. Keep its other connections as notes, tags or references instead of creating competing copies everywhere.
 
 One main category does not mean one copy. Keep backups and any copies required by your work or official requirements; avoid maintaining conflicting main versions.
+
+You do **not** need to create or use all fifteen categories. Start with the categories that match records you actually have, and add another only when it becomes useful.
 
 Examples:
 
@@ -28,4 +30,4 @@ If a record could fit in several places, ask: **If this disappeared, which part 
 
 The taxonomy is a filing reference, not a list of documents every household must have and not a legal retention schedule.
 
-No open reuse licence has been assigned to this public draft. See [LICENSE-NOTICE.md](LICENSE-NOTICE.md).
+No open reuse licence has been assigned to this taxonomy. See [LICENSE-NOTICE.md](LICENSE-NOTICE.md).

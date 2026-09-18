@@ -3,7 +3,7 @@
 For the everyday filing task, start with [the plain-language filing guide](START-HERE.md). The human guide/workbook maintenance revision is v0.1.1; the technical taxonomy identifiers, CSV, JSON and schema remain v0.1.0.
 
 **Version:** 0.1.0  
-**Status:** Public review candidate  
+**Status:** Released  
 **Namespace:** `ohrt`  
 **Maintainer:** Eterna Clarity
 
@@ -120,7 +120,7 @@ Each category in `taxonomy.json` includes:
 
 ## Versioning
 
-`0.1.0` is the first public review candidate. Stable category IDs are intended to survive normal editorial refinement. A breaking semantic change to category identity or meaning should result in an explicit version change and changelog entry rather than silently reusing an old ID for a different concept.
+`0.1.0` is the first public release. Stable category IDs are intended to survive normal editorial refinement. A breaking semantic change to category identity or meaning should result in an explicit version change and changelog entry rather than silently reusing an old ID for a different concept.
 
 ## Scope and boundaries
 
@@ -130,14 +130,14 @@ It also does not require a household or software product to display all fifteen 
 
 ## Licensing status
 
-No reuse license has been assigned to this public review candidate yet. Public visibility should not be interpreted as a blanket permission to reuse or redistribute the taxonomy. Licensing must be resolved deliberately before a final open release.
+No reuse license has been assigned to this release. Public visibility should not be interpreted as blanket permission to reuse or redistribute the taxonomy. Any future open-licence decision must be made explicitly.
 
 See [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md) and the repository-wide [`GOVERNANCE.md`](../../GOVERNANCE.md).
 
 ## Files
 
 - [`taxonomy.xlsx`](taxonomy.xlsx) - formatted human-facing workbook with Taxonomy and How to Use sheets.
-- [`taxonomy.json`](taxonomy.json) - canonical machine-readable category data for this candidate.
+- [`taxonomy.json`](taxonomy.json) - canonical machine-readable category data for this release.
 - [`taxonomy.csv`](taxonomy.csv) - flat portable tabular export for data interchange and simple inspection; not the formatted workbook.
 - [`taxonomy.schema.json`](taxonomy.schema.json) - JSON Schema for the published structure.
 - [`CHANGELOG.md`](CHANGELOG.md) - version history.
