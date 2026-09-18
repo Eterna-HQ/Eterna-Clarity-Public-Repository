@@ -2,7 +2,7 @@
 
 List your belongings room by room, note where photos or receipts are kept, and save a copy for later. Values are amounts you choose to record, not insurance valuations or replacement-cost estimates.
 
-[Use the browser tool](https://staging.eterna-clarity-portal.pages.dev/resources/home-inventory/) | [Blank CSV](INVENTORY-TEMPLATE.csv) | [Fictional CSV example](EXAMPLE.csv) | [Reopenable fictional example](EXAMPLE.json)
+[Use the browser tool](https://eternaclarity.com/resources/home-inventory/) | [Blank CSV](INVENTORY-TEMPLATE.csv) | [Fictional CSV example](EXAMPLE.csv) | [Reopenable fictional example](EXAMPLE.json)
 
 ## Start and come back later
 
