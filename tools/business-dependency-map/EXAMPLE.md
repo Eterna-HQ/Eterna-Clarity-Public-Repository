@@ -1,4 +1,4 @@
-# Fictional example — Business dependency map
+# Fictional example - Business dependency map
 
 This example uses a fictional small design studio.
 
