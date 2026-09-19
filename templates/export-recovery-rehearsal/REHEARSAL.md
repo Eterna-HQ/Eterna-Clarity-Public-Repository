@@ -2,7 +2,7 @@
 
 Version 1.2.0 | Eterna Clarity
 
-Use this before you cancel an app, trust a backup, or move important information somewhere else.
+Use this before you cancel an app or move important exported information somewhere else.
 
 Keep the original while you test.
 

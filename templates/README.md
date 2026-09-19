@@ -1,6 +1,6 @@
 # Templates
 
-Practical files for handing over one task, leaving household information for someone you trust, and testing an export before you rely on it.
+Practical files for handing over one task, leaving household information for someone you trust, and testing exported information before you rely on a migration.
 
 - [Task Handoff Builder](task-handoff-builder/): a short handover with the task, timing, information and person to ask for help.
 - [If I'm Unavailable: Household Information Plan](if-something-happened-to-me-information-plan/): a workbook and copyable plan for household responsibilities over days or weeks.

@@ -1,6 +1,6 @@
 # Export Check: Can I Still Use My Data?
 
-**Version 1.2.0.** Open the files, photos and links you need, then try one real task without the old app before you rely on an export or backup.
+**Version 1.2.0.** Open the files, photos and links you need, then try one real task without the old app before you rely on an export or migration.
 
 [Download the workbook](rehearsal-v1.2.0.xlsx) | [Read the checklist](REHEARSAL.md) | [See the fictional example](EXAMPLE.md)
 

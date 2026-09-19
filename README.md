@@ -60,6 +60,20 @@ A short continuity check for seeing what customer work, payments, systems, files
 - [Open the companion files](checklists/two-day-business-check/)
 - [Use the website check](https://eternaclarity.com/resources/two-day-business-check/)
 
+### What Does Your Business Depend On?
+
+Map the people, systems, data and outside providers a critical business activity depends on, then identify missing or untested fallbacks.
+
+- [Open the companion files](tools/business-dependency-map/)
+- [Use the browser tool](https://eternaclarity.com/resources/business-dependency-map/)
+
+### If Someone Leaves Today, What Access Has to Change?
+
+Check whether the business still controls its accounts, information, recovery paths and automations when someone leaves or changes roles.
+
+- [Open the companion files](checklists/access-handover-check/)
+- [Use the browser check](https://eternaclarity.com/resources/access-handover-check/)
+
 ### Task Handoff Builder
 
 Write a short handover with the task, timing, files, next step and who to ask for help.
@@ -78,12 +92,19 @@ Check a CSV for missing column names, uneven rows and values another app may cha
 
 ### Export Check: Can I Still Use My Data?
 
-Open the files, photos and links you need, then try one real task without the old app before you trust an export or backup.
+Open the files, photos and links you need, then try one real task without the old app before you trust an export or migration.
 
 - [Open the resource folder](templates/export-recovery-rehearsal/)
 - [Use the current browser-readable checklist](templates/export-recovery-rehearsal/REHEARSAL.md)
 - [Download the corrected v1.2.0 workbook](templates/export-recovery-rehearsal/rehearsal-v1.2.0.xlsx)
 - [Read version history](templates/export-recovery-rehearsal/CHANGELOG.md)
+
+### Can You Actually Restore Your Backup?
+
+Restore one real item into a safe test location, open it, and try the task that the restored information is supposed to support.
+
+- [Open the companion files](checklists/backup-restore-check/)
+- [Use the browser check](https://eternaclarity.com/resources/backup-restore-check/)
 
 ## Guides and references
 
