@@ -1,4 +1,4 @@
-# Fictional example — Backup restore check
+# Fictional example - Backup restore check
 
 **What do you need to restore?** Current customer proposal folder
 
